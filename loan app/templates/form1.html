@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>LOAN APPLICATION FORM</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background: url("bg.png"), -webkit-linear-gradient(bottom, #0250c5, #d43f8d);
+}
+::selection{
+  color: #fff;
+  background: #d43f8d;
+}
+.container{
+  width: 330px;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 50px 35px 10px 35px;
+}
+.container header{
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 0 0;
+}
+.container .form-outer{
+  width: 100%;
+  overflow: hidden;
+}
+.container .form-outer form{
+  display: flex;
+  width: 400%;
+}
+.form-outer form .page{
+  width: 25%;
+  transition: margin-left 0.3s ease-in-out;
+}
+.form-outer form .page .title{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+}
+.form-outer form .page .field{
+  width: 330px;
+  height: 45px;
+  margin: 45px 0;
+  display: flex;
+  position: relative;
+}
+form .page .field .label{
+  position: absolute;
+  top: -30px;
+  font-weight: 500;
+}
+form .page .field input{
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 18px;
+}
+form .page .field select{
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+form .page .field button{
+  width: 100%;
+  height: calc(100% + 5px);
+  border: none;
+  background: #d33f8d;
+  margin-top: -20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+}
+form .page .field button:hover{
+  background: #000;
+}
+form .page .btns button{
+  margin-top: -20px!important;
+}
+form .page .btns button.prev{
+  margin-right: 3px;
+  font-size: 17px;
+}
+form .page .btns button.next{
+  margin-left: 3px;
+}
+.container .progress-bar{
+  display: flex;
+  margin: 40px 0;
+  user-select: none;
+}
+.container .progress-bar .step{
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.container .progress-bar .step p{
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 8px;
+}
+.progress-bar .step .bullet{
+  height: 25px;
+  width: 25px;
+  border: 2px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+}
+.progress-bar .step .bullet.active{
+  border-color: #d43f8d;
+  background: #d43f8d;
+}
+.progress-bar .step .bullet span{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.progress-bar .step .bullet.active span{
+  display: none;
+}
+.progress-bar .step .bullet:before,
+.progress-bar .step .bullet:after{
+  position: absolute;
+  content: '';
+  bottom: 11px;
+  right: -51px;
+  height: 3px;
+  width: 44px;
+  background: #262626;
+}
+.progress-bar .step .bullet.active:after{
+  background: #d43f8d;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 0.3s linear forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.progress-bar .step:last-child .bullet:before,
+.progress-bar .step:last-child .bullet:after{
+  display: none;
+}
+.progress-bar .step p.active{
+  color: #d43f8d;
+  transition: 0.2s linear;
+}
+.progress-bar .step .check{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.progress-bar .step .check.active{
+  display: block;
+  color: #fff;
+}
+
+#yesbtn{
+  background-color: #2fcab0;
+  color: white;
+}
+
+#nobtn{
+  background-color: #2fcab0;
+  color: white;
+}
+
+#yesbtn:hover{
+  cursor: pointer;
+  background-color: gold;
+  color: white;
+
+}
+
+#nobtn:hover{
+  cursor: pointer;
+  background-color: gold;
+  color: white;
+
+}
+
+
+#yesbtn2{
+  background-color: #2fcab0;
+  color: white;
+}
+
+#nobtn2{
+  background-color: #2fcab0;
+  color: white;
+}
+
+#yesbtn2:hover{
+  cursor: pointer;
+  background-color: gold;
+  color: white;
+
+}
+
+#nobtn2:hover{
+  cursor: pointer;
+  background-color: gold;
+  color: white;
+
+}
+
+  </style>
+  <body>
+
+    <div class="container">
+      <header>Personal Information</header>
+      <div class="progress-bar">
+        <div class="step">
+      
+<!-- <div class="bullet">
+            <span></span>
+          </div> -->
+<!-- <div class="check fas fa-check">
+</div> -->
+</div>
+<div class="step">
+          
+<!-- <div class="bullet">
+            <span></span>
+          </div> -->
+<div class="check fas fa-check">
+</div>
+</div>
+<!-- <div class="step">
+          
+<div class="bullet">
+            <span></span>
+          </div>
+<div class="check fas fa-check">
+</div>
+</div> -->
+<div class="step">
+          
+<!-- <div class="bullet">
+            <span></span>
+          </div> -->
+<div class="check fas fa-check">
+
+</div>
+</div>
+</div>
+<div class="form-outer">
+        <form action="end.html" method="POST">
+          <div class="page slide-page">
+            <div class="title">
+Basic Info:</div>
+<div class="field">
+              <div class="label">
+First Name</div>
+<input type="text" name="firstName">
+            </div>
+<div class="field">
+              <div class="label">
+Last Name</div>
+<input type="text" name="lastName">
+            </div>
+<div class="field">
+              <button class="firstNext next">Next</button>
+            </div>
+</div>
+<div class="page">
+            <div class="title">
+Gender</div>
+<div class="field">
+<input type="radio" name="status" style="height: 30px;">
+         <label for="male">Male</label>  
+<input type="radio" name="status" style="height: 30px;">
+           <label for="female">Female</label> 
+<input type="radio" name="status" style="height: 30px;">
+<label for="others">Others</label>
+        </div>
+<!-- <div class="field">
+<input type="radio" name="status">
+           Female </div>
+
+<div class="field">
+<input type="radio" name="status">Others(hey we don't judge)
+            </div>
+ -->
+<div class="field btns">
+              <button class="prev-1 prev">Previous</button>
+              <button class="next-1 next">Next</button>
+            </div>
+</div>
+<div class="page">
+            <div class="title">
+Nationality</div>
+<div class="field">
+  <input type="radio" name="value" style="height: 30px;">
+  <label for="jamaican">Jamaican</label>
+
+  <input type="radio" name="value" style="height: 30px;">
+              <label for="others">Others</label>
+            </div>
+  
+
+<!-- <div class="field">
+              <div class="label">
+Gender</div>
+<select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+              </select>
+            </div> -->
+<div class="field btns">
+              <button class="prev-2 prev">Previous</button>
+              <button class="next-2 next">Next</button>
+            </div>
+</div>
+<div class="page">
+            <div class="title">
+How old are you?</div>
+<br>
+<div class="field">
+              <div class="label">
+Enter your age</div>
+<input type="number" placeholder="e.g. 32">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-3 prev">Previous</button>
+              <button class="next-3 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+Marital Status</div>
+<div class="field">
+              <input type="radio" name="value" style="height: 30px;">
+  <label for="married">Married</label>
+
+  <input type="radio" name="value" style="height: 30px;">
+              <label for="single">Single</label>
+            </div>
+
+<div class="field">
+              <input type="radio" name="value" style="height: 30px;">
+  <label for="divorce">Divorced/Seperated</label>
+
+  <input type="radio" name="value" style="height: 30px;">
+              <label for="widowed">Widowed</label>
+            </div>
+
+<div class="field">
+              <input type="radio" name="value" style="height: 30px;">
+  <label for="tohether">Living Together/Common</label>
+
+  <input type="radio" name="value" style="height: 30px;">
+              <label for="others">Others</label>
+            </div>
+<div class="field btns">
+              <button class="prev-4 prev">Previous</button>
+              <button class="next-4 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+Employment Status</div>
+<div class="field">
+<select>
+                <option></option>
+                <option>Employed</option>
+                <option>Self Employed</option>
+              </select>
+            </div>
+            <div class="field btns">
+              <button class="prev-5 prev">Previous</button>
+              <button class="next-5 next">Next</button>
+            </div>
+
+</div>
+
+<div class="page">
+            <div class="title">
+How long you have been working with your present EMPLOYER?</div>
+<div class="field">
+              <input type="radio" name="value" style="height: 30px;">
+  <label for="less1">0 to 1year</label>
+
+  <input type="radio" name="value" style="height: 30px;">
+  <label for="2-9">2 to 9Years</label>
+            </div>
+
+<div class="field">
+              
+
+  <input type="radio" name="value" style="height: 30px;">
+  <label for="10-24">10 to 24Years</label>
+  <input type="radio" name="value" style="height: 30px;">
+              <label for="25+">25+years</label>
+            </div>
+<div class="field btns">
+              <button class="prev-6 prev">Previous</button>
+              <button class="next-6 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+Residential Status</div>
+<div class="field">
+<select>
+              <option></option>
+                <option>Owner:paying Mortgage</option>
+                <option>Family Residence</option>
+              </select>
+            </div>
+            <div class="field btns">
+              <button class="prev-7 prev">Previous</button>
+              <button class="next-7 next">Next</button>
+            </div>
+
+</div>
+
+<div class="page">
+            <div class="title">
+Address</div>
+<label style="margin-right: 30px;">Enter your current living address here</label>
+<div class="field">
+  
+  <input type="text" placeholder="Enter a location" name="">
+            </div>
+            <div class="field btns">
+              <button class="prev-8 prev">Previous</button>
+              <button class="next-8 next">Next</button>
+            </div>
+
+</div>
+
+<div class="page">
+            <div class="title">
+How long you have been living at your present address?</div>
+<div class="field">
+              <input type="radio" name="value" style="height: 30px;">
+  <label for="less1">0 to 1year</label>
+
+  <input type="radio" name="value" style="height: 30px;">
+  <label for="2-9">2 to 9Years</label>
+            </div>
+
+<div class="field">
+              
+
+  <input type="radio" name="value" style="height: 30px;">
+  <label for="10-24">10 to 24Years</label>
+  <input type="radio" name="value" style="height: 30px;">
+              <label for="25+">25+years</label>
+            </div>
+<div class="field btns">
+              <button class="prev-9 prev">Previous</button>
+              <button class="next-9 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+How many kids do you have?</div>
+<div class="field">
+              <input type="radio" name="value" style="height: 30px;">
+  <label for="0">0</label>
+
+  <input type="radio" name="value" style="height: 30px;">
+  <label for="1">1</label>
+            </div>
+
+<div class="field">
+              
+
+  <input type="radio" name="value" style="height: 30px;">
+  <label for="2">2</label>
+  <input type="radio" name="value" style="height: 30px;">
+              <label for="more">Above2</label>
+            </div>
+<div class="field btns">
+              <button class="prev-10 prev">Previous</button>
+              <button class="next-10 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+What is the main purpose of the loan?</div>
+<div class="field">
+<select>
+                <option></option>
+                <option>Personal</option>
+                <option>Travel</option>
+                <option>Clothing</option>
+                <option>Air Conditioning or Heating Units</option>
+                <option>Bedding</option>
+                <option>Business Equipments</option>
+                <option>Dining</option>
+                <option>Refrigerator</option>
+                <option>Laundry-Washer,Dryer</option>
+                <option>Outdoor:Mower,Water Tank,Generator</option>
+                <option>Stoves</option>
+                <option>Upholstered item-Settees,Liv Room Suit</option>
+                <option>Video-Tv,Dvd,Home Theater</option>
+                <option>Audio-Hifi,Component Sets,Radios</option>
+              </select>
+            </div>
+            <div class="field btns">
+              <button class="prev-11 prev">Previous</button>
+              <button class="next-11 next">Next</button>
+            </div>
+
+</div>
+
+<div class="page">
+            <div class="title">
+How much money do you want to borrow?</div>
+<br>
+<div class="field">
+<input type="number" placeholder="e.g. 32000">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-12 prev">Previous</button>
+              <button class="next-12 next">Next</button>
+            </div>
+</div>
+
+
+<div class="page">
+            <div class="title">
+How long do you want the loan to last</div>
+<div class="field">
+<input type="radio" name="status" style="height: 25px;">
+         <label for="1">1Month</label>  
+<input type="radio" name="status" style="height: 25px;">
+           <label for="2">2Months</label> 
+<input type="radio" name="status" style="height: 25px;">
+<label for="3">3Months</label>
+        </div>
+
+<div class="field">
+<input type="radio" name="status" style="height: 25px;">
+         <label for="4">4Months</label>  
+<input type="radio" name="status" style="height: 25px;">
+           <label for="5">5Months</label> 
+<input type="radio" name="status" style="height: 25px;">
+<label for="6">6Months</label>
+        </div>
+<div class="field btns">
+              <button class="prev-13 prev">Previous</button>
+              <button class="next-13 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+What is your take home salary after tax each month?</div>
+<br>
+<div class="field">
+<input type="number" placeholder="e.g. 32000">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-14 prev">Previous</button>
+              <button class="next-14 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+Do you have additional source of income?</div>
+<br>
+<div class="field">
+<input type="button" value="Yes" id="yesbtn">
+            </div>
+            <div class="field">
+<input type="button" value="No" id="nobtn">
+            </div>
+<div class="field btns">
+              <button class="prev-15 prev">Previous</button>
+              <button class="next-15 next">Next</button>
+            </div>
+</div>
+
+
+<div class="page">
+            <div class="title">
+How much do you spend on rent/mortgage per month?</div>
+<br>
+<div class="field">
+<input type="number" placeholder="e.g. 32000">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-16 prev">Previous</button>
+              <button class="next-16 next">Next</button>
+            </div>
+</div>
+
+
+<div class="page">
+            <div class="title">
+How much do you spend on food every month?</div>
+<br>
+<div class="field">
+<input type="number" placeholder="e.g. 32000">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-17 prev">Previous</button>
+              <button class="next-17 next">Next</button>
+            </div>
+</div>
+
+
+<div class="page">
+            <div class="title">
+How much do you spend on transportation every month?</div>
+<br>
+<div class="field">
+<input type="number" placeholder="e.g. 25000">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-18 prev">Previous</button>
+              <button class="next-18 next">Next</button>
+            </div>
+</div>
+
+
+<div class="page">
+            <div class="title">
+How much do you spend on light per month?</div>
+<br>
+<div class="field">
+<input type="number" placeholder="e.g. 5500">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-19 prev">Previous</button>
+              <button class="next-19 next">Next</button>
+            </div>
+</div>
+
+
+<div class="page">
+            <div class="title">
+How much do you spend on water per month?</div>
+<br>
+<div class="field">
+<input type="number" placeholder="e.g. 3200">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-20 prev">Previous</button>
+              <button class="next-20 next">Next</button>
+            </div>
+</div>
+
+
+<div class="page">
+            <div class="title">
+How much do you spend on grooming every month?</div>
+<br>
+<div class="field">
+<input type="number" placeholder="e.g. 32000">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-21 prev">Previous</button>
+              <button class="next-21 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+How much do you spend on entertainment every month?</div>
+<br>
+<div class="field">
+<input type="number" placeholder="e.g. 15000">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-22 prev">Previous</button>
+              <button class="next-22 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+Do you have any other existing loans?</div>
+<br>
+<div class="field">
+<input type="button" value="Yes" id="yesbtn2">
+            </div>
+            <div class="field">
+<input type="button" value="No" id="nobtn2">
+            </div>
+<div class="field btns">
+              <button class="prev-23 prev">Previous</button>
+              <button class="next-23 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+What is your phone number?</div>
+<br>
+<div class="field">
+<input type="text" placeholder="Enter Mobile Phone Number">
+            </div>
+            <div class="field">
+<input type="text" placeholder="Enter Work Phone Number">
+            </div>
+<div class="field btns">
+              <button class="prev-24 prev">Previous</button>
+              <button class="next-24 next">Next</button>
+            </div>
+</div>
+
+
+<div class="page">
+            <div class="title">
+Email Address</div>
+<br>
+<div class="field">
+<input type="text" placeholder="ex: entermobile@example.com">
+            </div>
+<div class="field btns">
+              <button class="prev-25 prev">Previous</button>
+              <button class="next-25 next">Next</button>
+            </div>
+</div>
+
+
+<div class="page">
+            <div class="title">
+How long do you want the loan to last</div>
+<div class="field">
+<input type="radio" name="status" style="height: 25px;">
+         <label for="1">Instagram</label>  
+<input type="radio" name="status" style="height: 25px;">
+           <label for="2">Twitter</label> 
+<input type="radio" name="status" style="height: 25px;">
+<label for="3">Facebook</label>
+        </div>
+
+<div class="field">
+<input type="radio" name="status" style="height: 25px;">
+         <label for="4">Snapchat</label>  
+<input type="radio" name="status" style="height: 25px;">
+           <label for="5">TikTok</label> 
+<input type="radio" name="status" style="height: 25px;">
+<label for="6">Others</label>
+        </div>
+<div class="field btns">
+              <button class="prev-26 prev">Previous</button>
+              <button class="next-26 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+How often do you speak to your closest family member?</div>
+<div class="field">
+<select>
+                <option></option>
+                <option>Hardly</option>
+                <option>Once a week</option>
+                <option>Daily</option>
+                <option>Once a month</option>
+              </select>
+            </div>
+            <div class="field btns">
+              <button class="prev-27 prev">Previous</button>
+              <button class="next-27 next">Next</button>
+            </div>
+
+</div>
+
+
+<div class="page">
+            <div class="title">
+How How do you often save your contacts in your phone?</div>
+<div class="field">
+<select>
+                <option></option>
+                <option>First Name only</option>
+                <option>First and Last Name</option>
+                <option>Pet Name or Alias</option>
+              </select>
+            </div>
+            <div class="field btns">
+              <button class="prev-28 prev">Previous</button>
+              <button class="next-28 next">Next</button>
+            </div>
+
+</div>
+
+
+
+<div class="page">
+            <div class="title">
+Do you use a prepaid or postpaid phone?</div>
+<div class="field">
+<select>
+                <option></option>
+                <option>Prepaid</option>
+                <option>Postpaid</option>
+                <option>Both</option>
+              </select>
+            </div>
+            <div class="field btns">
+              <button class="prev-29 prev">Previous</button>
+              <button class="next-29 next">Next</button>
+            </div>
+
+</div>
+
+<div class="page">
+            <div class="title">
+             How often do you top up your prepaid phone?</div>
+<div class="field">
+<select>
+                <option></option>
+                <option>9-12 times per month</option>
+                <option>12 and above times per month</option>
+                <option>1-5 times per month</option>
+                <option>6-9 times per month</option>
+              </select>
+            </div>
+            <div class="field btns">
+              <button class="prev-30 prev">Previous</button>
+              <button class="next-30 next">Next</button>
+            </div>
+
+</div>
+
+<div class="page">
+            <div class="title">
+Do you have a moniready referrer code?</div>
+<br>
+<div class="field">
+<input type="number" placeholder="e.g. 3200">
+            </div>
+            <br>
+<div class="field btns">
+              <button class="prev-31 prev">Previous</button>
+              <button class="next-31 next">Next</button>
+            </div>
+</div>
+
+<div class="page">
+            <div class="title">
+            FINALLY ! How did you find out about us. Please press the button only once when submitting the form</div>
+<div class="field">
+<select>
+                <option></option>
+                <option>Instagram</option>
+                <option>Google Search</option>
+                <option>Facebook</option>
+                <option>Word of mouth</option>
+              </select>
+            </div>
+            <div class="field btns">
+              <button class="prev-32 prev">Previous</button>
+              <button class="submit">Submit</button>
+            </div>
+
+</div>
+
+
+</form>
+</div>
+</div>
+<!-- Somehow I got an error, so I comment the script tag, just uncomment to use -->
+<!-- <script src="script.js"></script> -->
+
+<script>
+const slidePage = document.querySelector(".slide-page");
+const nextBtnFirst = document.querySelector(".firstNext");
+const prevBtnSec = document.querySelector(".prev-1");
+const nextBtnSec = document.querySelector(".next-1");
+const prevBtnThird = document.querySelector(".prev-2");
+const nextBtnThird = document.querySelector(".next-2");
+const prevBtnFourth = document.querySelector(".prev-3");
+const nextBtnFourth = document.querySelector(".next-3");
+const prevBtnFifth = document.querySelector(".prev-4");
+const nextBtnFifth = document.querySelector(".next-4");
+const prevBtnSixth = document.querySelector(".prev-5");
+const nextBtnSixth = document.querySelector(".next-5");
+const prevBtnSeventh = document.querySelector(".prev-6");
+const nextBtnSeventh = document.querySelector(".next-6");
+const prevBtnEighted = document.querySelector(".prev-7");
+const nextBtnEighted = document.querySelector(".next-7");
+const prevBtnNinth = document.querySelector(".prev-8");
+const nextBtnNinth = document.querySelector(".next-8");
+const prevBtnTenth = document.querySelector(".prev-9");
+const nextBtnTenth = document.querySelector(".next-9");
+const prevBtnEleventh = document.querySelector(".prev-10");
+const nextBtnEleventh = document.querySelector(".next-10");
+const prevBtnTwelveth = document.querySelector(".prev-11");
+const nextBtnTwelveth = document.querySelector(".next-11");
+const prevBtnThirteen = document.querySelector(".prev-12");
+const nextBtnThirteen = document.querySelector(".next-12");
+const prevBtnFourteen = document.querySelector(".prev-13");
+const nextBtnFourteen = document.querySelector(".next-13");
+const prevBtnFifteen = document.querySelector(".prev-14");
+const nextBtnFifteen = document.querySelector(".next-14");
+const prevBtnSixteen = document.querySelector(".prev-15");
+const nextBtnSixteen = document.querySelector(".next-15");
+const prevBtnSeventeen = document.querySelector(".prev-16");
+const nextBtnSeventeen = document.querySelector(".next-16");
+const prevBtnEighteen = document.querySelector(".prev-17");
+const nextBtnEighteen = document.querySelector(".next-17");
+const prevBtnNineteen= document.querySelector(".prev-18");
+const nextBtnNineteen= document.querySelector(".next-18");
+const prevBtnTwenty = document.querySelector(".prev-19");
+const nextBtnTwenty = document.querySelector(".next-19");
+const prevBtnTwentyOne = document.querySelector(".prev-20");
+const nextBtnTwentyOne = document.querySelector(".next-20");
+const prevBtnTwentyTwo = document.querySelector(".prev-21");
+const nextBtnTwentyTwo = document.querySelector(".next-21");
+const prevBtnTwentyThree = document.querySelector(".prev-22");
+const nextBtnTwentyThree = document.querySelector(".next-22");
+const prevBtnTwentyFour = document.querySelector(".prev-23");
+const nextBtnTwentyFour = document.querySelector(".next-23");
+const prevBtnTwentyFive = document.querySelector(".prev-24");
+const nextBtnTwentyFive = document.querySelector(".next-24");
+const prevBtnTwentySix = document.querySelector(".prev-25");
+const nextBtnTwentySix = document.querySelector(".next-25");
+const prevBtnTwentySeven = document.querySelector(".prev-26");
+const nextBtnTwentySeven = document.querySelector(".next-26");
+const prevBtnTwentyEight = document.querySelector(".prev-27");
+const nextBtnTwentyEight = document.querySelector(".next-27");
+const prevBtnTwentyNine = document.querySelector(".prev-28");
+const nextBtnTwentyNine = document.querySelector(".next-28");
+const prevBtnThirty = document.querySelector(".prev-29");
+const nextBtnThirty = document.querySelector(".next-29");
+const prevBtnThirtyOne = document.querySelector(".prev-30");
+const nextBtnThirtyOne = document.querySelector(".next-30");
+const prevBtnThirtyTwo = document.querySelector(".prev-31");
+const nextBtnThirtyTwo = document.querySelector(".next-31");
+const prevBtnThirtyThree = document.querySelector(".prev-32");
+const submitBtn = document.querySelector(".submit");
+/*const progressText = document.querySelectorAll(".step p");
+const progressCheck = document.querySelectorAll(".step .check");*/
+const bullet = document.querySelectorAll(".step .bullet");
+let current = 1;
+
+nextBtnFirst.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-25%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+nextBtnSec.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-50%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+nextBtnThird.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-75%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnFourth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-100%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnFifth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-125%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnSixth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-150%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnSeventh.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-175%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+
+nextBtnEighted.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-200%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnNinth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-225%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTenth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-250%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnEleventh.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-275%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTwelveth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-300%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnThirteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-325%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnFourteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-350%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnFifteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-375%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnSixteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-400%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnSeventeen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-425%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnEighteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-450%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnNineteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-475%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTwenty.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-500%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTwentyOne.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-525%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTwentyTwo.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-550%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTwentyThree.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-575%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTwentyFour.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-600%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTwentyFive.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-625%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+nextBtnTwentySix.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-650%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTwentySeven.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-675%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTwentyEight.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-700%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnTwentyNine.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-725%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnThirty.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-750%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnThirtyOne.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-775%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnThirtyTwo.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-800%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+nextBtnThirtyThree.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-825%";
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+});
+
+
+
+submitBtn.addEventListener("click", function(){
+  bullet[current - 1].classList.add("active");
+  progressCheck[current - 1].classList.add("active");
+  progressText[current - 1].classList.add("active");
+  current += 1;
+  setTimeout(function(){
+    alert("Your Form Successfully Signed up");
+    location.reload();
+  },800);
+});
+
+prevBtnSec.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "0%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+prevBtnThird.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-25%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+prevBtnFourth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-50%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnFifth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-75%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnSixth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-100%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnSeventh.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-125%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnEighted.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-150%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnNinth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-175%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTenth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-200%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnEleventh.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-225%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwelveth.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-250%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnThirteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-275%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnFourteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-300%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnFifteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-325%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnSixteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-350%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnSeventeen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-375%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnEighteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-400%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnNineteen.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-425%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwenty.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-450%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwentyOne.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-475%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwentyTwo.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-500%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwentyThree.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-525%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwentyFour.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-550%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwentyFive.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-575%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwentySix.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-600%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwentySeven.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-625%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwentyEight.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-650%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnTwentyNine.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-675%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnThirty.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-700%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnThirtyOne.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-725%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+prevBtnThirtyTwo.addEventListener("click", function(event){
+  event.preventDefault();
+  slidePage.style.marginLeft = "-750%";
+  bullet[current - 2].classList.remove("active");
+  progressCheck[current - 2].classList.remove("active");
+  progressText[current - 2].classList.remove("active");
+  current -= 1;
+});
+
+
+
+
+</script>
+
+  </body>
+</html>
