@@ -2,6 +2,10 @@ from flask import Flask,render_template,request
 from mailjet_rest import Client
 import os
 
+payment_amount = None
+user_data = {}
+
+
 api_key = 'eade989f48f986b7ec5a484be8a666d3'
 api_secret = '130871b2935661b0c6a0aad34db3848e'
 
@@ -39,6 +43,9 @@ def home():
 
 @app.route("/form.html",methods=['GET','POST'])
 def form_1():
+    # print(request.form['payment'])
+    payment_amount = request.form['payment']
+    print(payment_amount)
     return render_template('form.html')
 
 
@@ -49,11 +56,25 @@ def form_2():
 
 @app.route("/end.html",methods=['GET','POST'])
 def end_page():
+
     if(request.method=="POST"):
-        print(request.form['firstName']+"   "+request.form['lastName'])
-        result = mailjet.send.create(data=data)
-        print(result.status_code)
-        print(result.json())
+        print(request.form)
+        user_data['firstName'] = request.form['firstName']
+        user_data['lastName'] = request.form['lastName']
+        user_data['age'] = request.form['user_age']
+        if(request.form['value']=="single"):
+            user_data['martial_status_single'] = 1
+            user_data['martial_status_married'] = 0
+        elif(request.form['value']=="married"):
+            user_data['martial_status_single'] = 0
+            user_data['martial_status_married'] = 1
+        else:
+            user_data['martial_status_single'] = 0
+            user_data['martial_status_married'] = 0
+
+    #     result = mailjet.send.create(data=data)
+    #     print(result.status_code)
+    #     print(result.json())
     return render_template('end.html')
 
 

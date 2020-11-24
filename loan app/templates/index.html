@@ -141,8 +141,9 @@
         </div>
         <input type="range" min="20" max="100" value="20" class="slider" id="myRange">
 
-
+        
         <br><br>
+        <form method="POST" action="form.html">
         <div style="color: black;">
             <span style="padding-right: 250px;">1<span>Month</span></span>
             <span style="padding-right: 230px; color: red;"><span id="demo2"></span><span> Months</span></span>
@@ -151,9 +152,13 @@
         <input type="range" min="1" max="6" value="1" class="slider1" id="myRange1">
         <p style="font-size: x-large;color: black;">Your Repayments are $ <span id="loan"></span> every month </p>
         <br>
-        <a class="applynow" href="form.html">
-            <button  id="submit" value="NEXT"><strong>Apply Now</strong></button>
-        </a>
+        
+            <!-- <button  id="submit" value="NEXT"><strong>Apply Now</strong></button> -->
+            <input type="hidden" id="spanAmount" name=payment value="">
+            <input class="applynow" type="submit" id="submit" value="Apply Now">
+            
+        
+        </form>
     </div>
 
 </div>
@@ -164,6 +169,7 @@
         var output = document.getElementById("demo");
         var output2 = document.getElementById("demo2");
         var loan = document.getElementById("loan");
+        var paymentVar = document.getElementById("spanAmount")
         output.innerHTML = slider.value * 1000;
 
 
@@ -215,6 +221,7 @@
             var payment = (amount / months) + 3200 + findAmountFactor(amount);
 
             loan.innerHTML = Math.round(payment);
+            paymentVar.value = Math.round(payment);
 
         }
 
