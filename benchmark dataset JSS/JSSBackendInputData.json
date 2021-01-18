@@ -1,0 +1,1284 @@
+{
+  "generations": 5000,
+  "popSize": 8,
+  "scheduleStartTime": "2020-06-18T08:00:00.000Z",
+  "workshop": "52",
+  "factory": "AMF",
+  "batchSize": 1,
+  "fabricationOrders": [
+    {
+      "foId": 0,
+      "partNumber": "0",
+      "partName": "Front Stranger",
+      "qualityCode": "QC123",
+      "QPA": 1,
+      "aircraftSection": "Wing",
+      "sbgActivity": "Pre-Jig",
+      "level": 1,
+      "priority": 0,
+      "operations": [
+        {
+          "opId": 0,
+          "sequence": 0,
+          "processId": 2,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 44,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 1,
+          "sequence": 5,
+          "processId": 3,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 5,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 2,
+          "sequence": 10,
+          "processId": 5,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 58,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 3,
+          "sequence": 15,
+          "processId": 4,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 97,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 4,
+          "sequence": 20,
+          "processId": 0,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 9,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 5,
+          "sequence": 25,
+          "processId": 7,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 84,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 6,
+          "sequence": 30,
+          "processId": 8,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 77,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 7,
+          "sequence": 35,
+          "processId": 9,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 96,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 8,
+          "sequence": 40,
+          "processId": 1,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 58,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 9,
+          "sequence": 45,
+          "processId": 6,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 89,
+          "trade": "electrical",
+          "mappable": true
+        }
+      ]
+    },
+    {
+      "foId": 1,
+      "partNumber": "1",
+      "partName": "Front Stranger",
+      "qualityCode": "QC123",
+      "QPA": 1,
+      "aircraftSection": "Wing",
+      "sbgActivity": "Pre-Jig",
+      "level": 1,
+      "priority": 0,
+      "operations": [
+        {
+          "opId": 10,
+          "sequence": 0,
+          "processId": 4,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 15,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 11,
+          "sequence": 5,
+          "processId": 7,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 31,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 12,
+          "sequence": 10,
+          "processId": 1,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 87,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 13,
+          "sequence": 15,
+          "processId": 8,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 57,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 14,
+          "sequence": 20,
+          "processId": 0,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 77,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 15,
+          "sequence": 25,
+          "processId": 3,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 85,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 16,
+          "sequence": 30,
+          "processId": 2,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 81,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 17,
+          "sequence": 35,
+          "processId": 5,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 39,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 18,
+          "sequence": 40,
+          "processId": 9,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 73,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 19,
+          "sequence": 45,
+          "processId": 6,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 21,
+          "trade": "electrical",
+          "mappable": true
+        }
+      ]
+    },
+    {
+      "foId": 2,
+      "partNumber": "2",
+      "partName": "Front Stranger",
+      "qualityCode": "QC123",
+      "QPA": 1,
+      "aircraftSection": "Wing",
+      "sbgActivity": "Pre-Jig",
+      "level": 1,
+      "priority": 0,
+      "operations": [
+        {
+          "opId": 20,
+          "sequence": 0,
+          "processId": 9,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 82,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 21,
+          "sequence": 5,
+          "processId": 6,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 22,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 22,
+          "sequence": 10,
+          "processId": 4,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 10,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 23,
+          "sequence": 15,
+          "processId": 3,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 70,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 24,
+          "sequence": 20,
+          "processId": 1,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 49,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 25,
+          "sequence": 25,
+          "processId": 0,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 40,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 26,
+          "sequence": 30,
+          "processId": 8,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 34,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 27,
+          "sequence": 35,
+          "processId": 2,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 48,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 28,
+          "sequence": 40,
+          "processId": 7,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 80,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 29,
+          "sequence": 45,
+          "processId": 5,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 71,
+          "trade": "electrical",
+          "mappable": true
+        }
+      ]
+    },
+    {
+      "foId": 3,
+      "partNumber": "3",
+      "partName": "Front Stranger",
+      "qualityCode": "QC123",
+      "QPA": 1,
+      "aircraftSection": "Wing",
+      "sbgActivity": "Pre-Jig",
+      "level": 1,
+      "priority": 0,
+      "operations": [
+        {
+          "opId": 30,
+          "sequence": 0,
+          "processId": 1,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 91,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 31,
+          "sequence": 5,
+          "processId": 2,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 17,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 32,
+          "sequence": 10,
+          "processId": 7,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 62,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 33,
+          "sequence": 15,
+          "processId": 5,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 75,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 34,
+          "sequence": 20,
+          "processId": 8,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 47,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 35,
+          "sequence": 25,
+          "processId": 4,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 11,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 36,
+          "sequence": 30,
+          "processId": 3,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 7,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 37,
+          "sequence": 35,
+          "processId": 6,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 72,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 38,
+          "sequence": 40,
+          "processId": 9,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 35,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 39,
+          "sequence": 45,
+          "processId": 0,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 55,
+          "trade": "electrical",
+          "mappable": true
+        }
+      ]
+    },
+    {
+      "foId": 4,
+      "partNumber": "4",
+      "partName": "Front Stranger",
+      "qualityCode": "QC123",
+      "QPA": 1,
+      "aircraftSection": "Wing",
+      "sbgActivity": "Pre-Jig",
+      "level": 1,
+      "priority": 0,
+      "operations": [
+        {
+          "opId": 40,
+          "sequence": 0,
+          "processId": 6,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 71,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 41,
+          "sequence": 5,
+          "processId": 1,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 90,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 42,
+          "sequence": 10,
+          "processId": 3,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 75,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 43,
+          "sequence": 15,
+          "processId": 0,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 64,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 44,
+          "sequence": 20,
+          "processId": 2,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 94,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 45,
+          "sequence": 25,
+          "processId": 8,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 15,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 46,
+          "sequence": 30,
+          "processId": 4,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 12,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 47,
+          "sequence": 35,
+          "processId": 7,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 67,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 48,
+          "sequence": 40,
+          "processId": 9,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 20,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 49,
+          "sequence": 45,
+          "processId": 5,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 50,
+          "trade": "electrical",
+          "mappable": true
+        }
+      ]
+    },
+    {
+      "foId": 5,
+      "partNumber": "5",
+      "partName": "Front Stranger",
+      "qualityCode": "QC123",
+      "QPA": 1,
+      "aircraftSection": "Wing",
+      "sbgActivity": "Pre-Jig",
+      "level": 1,
+      "priority": 0,
+      "operations": [
+        {
+          "opId": 50,
+          "sequence": 0,
+          "processId": 7,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 70,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 51,
+          "sequence": 5,
+          "processId": 5,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 93,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 52,
+          "sequence": 10,
+          "processId": 8,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 77,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 53,
+          "sequence": 15,
+          "processId": 2,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 29,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 54,
+          "sequence": 20,
+          "processId": 4,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 58,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 55,
+          "sequence": 25,
+          "processId": 6,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 93,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 56,
+          "sequence": 30,
+          "processId": 3,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 68,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 57,
+          "sequence": 35,
+          "processId": 1,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 57,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 58,
+          "sequence": 40,
+          "processId": 9,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 7,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 59,
+          "sequence": 45,
+          "processId": 0,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 52,
+          "trade": "electrical",
+          "mappable": true
+        }
+      ]
+    },
+    {
+      "foId": 6,
+      "partNumber": "6",
+      "partName": "Front Stranger",
+      "qualityCode": "QC123",
+      "QPA": 1,
+      "aircraftSection": "Wing",
+      "sbgActivity": "Pre-Jig",
+      "level": 1,
+      "priority": 0,
+      "operations": [
+        {
+          "opId": 60,
+          "sequence": 0,
+          "processId": 6,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 87,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 61,
+          "sequence": 5,
+          "processId": 1,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 63,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 62,
+          "sequence": 10,
+          "processId": 4,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 26,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 63,
+          "sequence": 15,
+          "processId": 5,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 6,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 64,
+          "sequence": 20,
+          "processId": 2,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 82,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 65,
+          "sequence": 25,
+          "processId": 3,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 27,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 66,
+          "sequence": 30,
+          "processId": 7,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 56,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 67,
+          "sequence": 35,
+          "processId": 8,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 48,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 68,
+          "sequence": 40,
+          "processId": 9,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 36,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 69,
+          "sequence": 45,
+          "processId": 0,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 95,
+          "trade": "electrical",
+          "mappable": true
+        }
+      ]
+    },
+    {
+      "foId": 7,
+      "partNumber": "7",
+      "partName": "Front Stranger",
+      "qualityCode": "QC123",
+      "QPA": 1,
+      "aircraftSection": "Wing",
+      "sbgActivity": "Pre-Jig",
+      "level": 1,
+      "priority": 0,
+      "operations": [
+        {
+          "opId": 70,
+          "sequence": 0,
+          "processId": 0,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 36,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 71,
+          "sequence": 5,
+          "processId": 5,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 15,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 72,
+          "sequence": 10,
+          "processId": 8,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 41,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 73,
+          "sequence": 15,
+          "processId": 9,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 78,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 74,
+          "sequence": 20,
+          "processId": 3,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 76,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 75,
+          "sequence": 25,
+          "processId": 6,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 84,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 76,
+          "sequence": 30,
+          "processId": 4,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 30,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 77,
+          "sequence": 35,
+          "processId": 7,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 76,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 78,
+          "sequence": 40,
+          "processId": 2,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 36,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 79,
+          "sequence": 45,
+          "processId": 1,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 8,
+          "trade": "electrical",
+          "mappable": true
+        }
+      ]
+    },
+    {
+      "foId": 8,
+      "partNumber": "8",
+      "partName": "Front Stranger",
+      "qualityCode": "QC123",
+      "QPA": 1,
+      "aircraftSection": "Wing",
+      "sbgActivity": "Pre-Jig",
+      "level": 1,
+      "priority": 0,
+      "operations": [
+        {
+          "opId": 80,
+          "sequence": 0,
+          "processId": 5,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 88,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 81,
+          "sequence": 5,
+          "processId": 2,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 81,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 82,
+          "sequence": 10,
+          "processId": 3,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 13,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 83,
+          "sequence": 15,
+          "processId": 6,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 82,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 84,
+          "sequence": 20,
+          "processId": 4,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 54,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 85,
+          "sequence": 25,
+          "processId": 7,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 13,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 86,
+          "sequence": 30,
+          "processId": 8,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 29,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 87,
+          "sequence": 35,
+          "processId": 9,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 40,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 88,
+          "sequence": 40,
+          "processId": 1,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 78,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 89,
+          "sequence": 45,
+          "processId": 0,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 75,
+          "trade": "electrical",
+          "mappable": true
+        }
+      ]
+    },
+    {
+      "foId": 9,
+      "partNumber": "9",
+      "partName": "Front Stranger",
+      "qualityCode": "QC123",
+      "QPA": 1,
+      "aircraftSection": "Wing",
+      "sbgActivity": "Pre-Jig",
+      "level": 1,
+      "priority": 0,
+      "operations": [
+        {
+          "opId": 90,
+          "sequence": 0,
+          "processId": 9,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 88,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 91,
+          "sequence": 5,
+          "processId": 4,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 54,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 92,
+          "sequence": 10,
+          "processId": 6,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 64,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 93,
+          "sequence": 15,
+          "processId": 7,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 32,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 94,
+          "sequence": 20,
+          "processId": 0,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 52,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 95,
+          "sequence": 25,
+          "processId": 2,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 6,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 96,
+          "sequence": 30,
+          "processId": 8,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 54,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 97,
+          "sequence": 35,
+          "processId": 5,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 82,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 98,
+          "sequence": 40,
+          "processId": 3,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 6,
+          "trade": "electrical",
+          "mappable": true
+        },
+        {
+          "opId": 99,
+          "sequence": 45,
+          "processId": 1,
+          "machineSetupTime": 0,
+          "partSetupTime": 0,
+          "operationTime": 26,
+          "trade": "electrical",
+          "mappable": true
+        }
+      ]
+    }
+  ],
+  "machines": [
+    {
+      "machineId": 0,
+      "machineName": "Machine 0",
+      "machineFreeTime": 0
+    },
+    {
+      "machineId": 1,
+      "machineName": "Machine 1",
+      "machineFreeTime": 0
+    },
+    {
+      "machineId": 2,
+      "machineName": "Machine 2",
+      "machineFreeTime": 0
+    },
+    {
+      "machineId": 3,
+      "machineName": "Machine 3",
+      "machineFreeTime": 0
+    },
+    {
+      "machineId": 4,
+      "machineName": "Machine 4",
+      "machineFreeTime": 0
+    },
+    {
+      "machineId": 5,
+      "machineName": "Machine 5",
+      "machineFreeTime": 0
+    },
+    {
+      "machineId": 6,
+      "machineName": "Machine 6",
+      "machineFreeTime": 0
+    },
+    {
+      "machineId": 7,
+      "machineName": "Machine 7",
+      "machineFreeTime": 0
+    },
+    {
+      "machineId": 8,
+      "machineName": "Machine 8",
+      "machineFreeTime": 0
+    },
+    {
+      "machineId": 9,
+      "machineName": "Machine 9",
+      "machineFreeTime": 0
+    }
+  ],
+  "processes": [
+    {
+      "processId": 0,
+      "processName": "0",
+      "processCode": "0",
+      "machines": [
+        0
+      ],
+      "mappable": true
+    },
+    {
+      "processId": 1,
+      "processName": "1",
+      "processCode": "1",
+      "machines": [
+        1
+      ],
+      "mappable": true
+    },
+    {
+      "processId": 2,
+      "processName": "2",
+      "processCode": "2",
+      "machines": [
+        2
+      ],
+      "mappable": true
+    },
+    {
+      "processId": 3,
+      "processName": "3",
+      "processCode": "3",
+      "machines": [
+        3
+      ],
+      "mappable": true
+    },
+    {
+      "processId": 4,
+      "processName": "4",
+      "processCode": "4",
+      "machines": [
+        4
+      ],
+      "mappable": true
+    },
+    {
+      "processId": 5,
+      "processName": "5",
+      "processCode": "5",
+      "machines": [
+        5
+      ],
+      "mappable": true
+    },
+    {
+      "processId": 6,
+      "processName": "6",
+      "processCode": "6",
+      "machines": [
+        6
+      ],
+      "mappable": true
+    },
+    {
+      "processId": 7,
+      "processName": "7",
+      "processCode": "7",
+      "machines": [
+        7
+      ],
+      "mappable": true
+    },
+    {
+      "processId": 8,
+      "processName": "8",
+      "processCode": "8",
+      "machines": [
+        8
+      ],
+      "mappable": true
+    },
+    {
+      "processId": 9,
+      "processName": "9",
+      "processCode": "9",
+      "machines": [
+        9
+      ],
+      "mappable": true
+    }
+  ]
+}

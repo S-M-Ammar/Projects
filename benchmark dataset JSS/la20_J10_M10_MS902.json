@@ -1,0 +1,625 @@
+{
+  "config": {
+    "generations": 1000,
+    "pop size": 8
+  },
+  "buckets": [
+    {
+      "bucketID": 0,
+      "jobs": [
+        {
+          "jobID": 0,
+          "operations": [
+            {
+              "operationSequence": 0,
+              "process": 6,
+              "duration": 9
+            },
+            {
+              "operationSequence": 1,
+              "process": 1,
+              "duration": 81
+            },
+            {
+              "operationSequence": 2,
+              "process": 4,
+              "duration": 55
+            },
+            {
+              "operationSequence": 3,
+              "process": 2,
+              "duration": 40
+            },
+            {
+              "operationSequence": 4,
+              "process": 8,
+              "duration": 32
+            },
+            {
+              "operationSequence": 5,
+              "process": 3,
+              "duration": 37
+            },
+            {
+              "operationSequence": 6,
+              "process": 0,
+              "duration": 6
+            },
+            {
+              "operationSequence": 7,
+              "process": 5,
+              "duration": 19
+            },
+            {
+              "operationSequence": 8,
+              "process": 9,
+              "duration": 81
+            },
+            {
+              "operationSequence": 9,
+              "process": 7,
+              "duration": 40
+            }
+          ]
+        },
+        {
+          "jobID": 1,
+          "operations": [
+            {
+              "operationSequence": 0,
+              "process": 7,
+              "duration": 21
+            },
+            {
+              "operationSequence": 1,
+              "process": 2,
+              "duration": 70
+            },
+            {
+              "operationSequence": 2,
+              "process": 9,
+              "duration": 65
+            },
+            {
+              "operationSequence": 3,
+              "process": 4,
+              "duration": 64
+            },
+            {
+              "operationSequence": 4,
+              "process": 1,
+              "duration": 46
+            },
+            {
+              "operationSequence": 5,
+              "process": 5,
+              "duration": 65
+            },
+            {
+              "operationSequence": 6,
+              "process": 8,
+              "duration": 25
+            },
+            {
+              "operationSequence": 7,
+              "process": 0,
+              "duration": 77
+            },
+            {
+              "operationSequence": 8,
+              "process": 3,
+              "duration": 55
+            },
+            {
+              "operationSequence": 9,
+              "process": 6,
+              "duration": 15
+            }
+          ]
+        },
+        {
+          "jobID": 2,
+          "operations": [
+            {
+              "operationSequence": 0,
+              "process": 2,
+              "duration": 85
+            },
+            {
+              "operationSequence": 1,
+              "process": 5,
+              "duration": 37
+            },
+            {
+              "operationSequence": 2,
+              "process": 0,
+              "duration": 40
+            },
+            {
+              "operationSequence": 3,
+              "process": 3,
+              "duration": 24
+            },
+            {
+              "operationSequence": 4,
+              "process": 1,
+              "duration": 44
+            },
+            {
+              "operationSequence": 5,
+              "process": 6,
+              "duration": 83
+            },
+            {
+              "operationSequence": 6,
+              "process": 4,
+              "duration": 89
+            },
+            {
+              "operationSequence": 7,
+              "process": 8,
+              "duration": 31
+            },
+            {
+              "operationSequence": 8,
+              "process": 7,
+              "duration": 84
+            },
+            {
+              "operationSequence": 9,
+              "process": 9,
+              "duration": 29
+            }
+          ]
+        },
+        {
+          "jobID": 3,
+          "operations": [
+            {
+              "operationSequence": 0,
+              "process": 4,
+              "duration": 80
+            },
+            {
+              "operationSequence": 1,
+              "process": 6,
+              "duration": 77
+            },
+            {
+              "operationSequence": 2,
+              "process": 7,
+              "duration": 56
+            },
+            {
+              "operationSequence": 3,
+              "process": 0,
+              "duration": 8
+            },
+            {
+              "operationSequence": 4,
+              "process": 2,
+              "duration": 30
+            },
+            {
+              "operationSequence": 5,
+              "process": 5,
+              "duration": 59
+            },
+            {
+              "operationSequence": 6,
+              "process": 3,
+              "duration": 38
+            },
+            {
+              "operationSequence": 7,
+              "process": 1,
+              "duration": 80
+            },
+            {
+              "operationSequence": 8,
+              "process": 9,
+              "duration": 41
+            },
+            {
+              "operationSequence": 9,
+              "process": 8,
+              "duration": 97
+            }
+          ]
+        },
+        {
+          "jobID": 4,
+          "operations": [
+            {
+              "operationSequence": 0,
+              "process": 0,
+              "duration": 91
+            },
+            {
+              "operationSequence": 1,
+              "process": 6,
+              "duration": 40
+            },
+            {
+              "operationSequence": 2,
+              "process": 4,
+              "duration": 88
+            },
+            {
+              "operationSequence": 3,
+              "process": 1,
+              "duration": 17
+            },
+            {
+              "operationSequence": 4,
+              "process": 2,
+              "duration": 71
+            },
+            {
+              "operationSequence": 5,
+              "process": 3,
+              "duration": 50
+            },
+            {
+              "operationSequence": 6,
+              "process": 9,
+              "duration": 59
+            },
+            {
+              "operationSequence": 7,
+              "process": 8,
+              "duration": 80
+            },
+            {
+              "operationSequence": 8,
+              "process": 5,
+              "duration": 56
+            },
+            {
+              "operationSequence": 9,
+              "process": 7,
+              "duration": 7
+            }
+          ]
+        },
+        {
+          "jobID": 5,
+          "operations": [
+            {
+              "operationSequence": 0,
+              "process": 2,
+              "duration": 8
+            },
+            {
+              "operationSequence": 1,
+              "process": 6,
+              "duration": 9
+            },
+            {
+              "operationSequence": 2,
+              "process": 3,
+              "duration": 58
+            },
+            {
+              "operationSequence": 3,
+              "process": 5,
+              "duration": 77
+            },
+            {
+              "operationSequence": 4,
+              "process": 1,
+              "duration": 29
+            },
+            {
+              "operationSequence": 5,
+              "process": 8,
+              "duration": 96
+            },
+            {
+              "operationSequence": 6,
+              "process": 0,
+              "duration": 45
+            },
+            {
+              "operationSequence": 7,
+              "process": 9,
+              "duration": 10
+            },
+            {
+              "operationSequence": 8,
+              "process": 4,
+              "duration": 54
+            },
+            {
+              "operationSequence": 9,
+              "process": 7,
+              "duration": 36
+            }
+          ]
+        },
+        {
+          "jobID": 6,
+          "operations": [
+            {
+              "operationSequence": 0,
+              "process": 4,
+              "duration": 70
+            },
+            {
+              "operationSequence": 1,
+              "process": 3,
+              "duration": 92
+            },
+            {
+              "operationSequence": 2,
+              "process": 1,
+              "duration": 98
+            },
+            {
+              "operationSequence": 3,
+              "process": 5,
+              "duration": 87
+            },
+            {
+              "operationSequence": 4,
+              "process": 6,
+              "duration": 99
+            },
+            {
+              "operationSequence": 5,
+              "process": 7,
+              "duration": 27
+            },
+            {
+              "operationSequence": 6,
+              "process": 8,
+              "duration": 86
+            },
+            {
+              "operationSequence": 7,
+              "process": 9,
+              "duration": 96
+            },
+            {
+              "operationSequence": 8,
+              "process": 0,
+              "duration": 28
+            },
+            {
+              "operationSequence": 9,
+              "process": 2,
+              "duration": 73
+            }
+          ]
+        },
+        {
+          "jobID": 7,
+          "operations": [
+            {
+              "operationSequence": 0,
+              "process": 1,
+              "duration": 95
+            },
+            {
+              "operationSequence": 1,
+              "process": 7,
+              "duration": 92
+            },
+            {
+              "operationSequence": 2,
+              "process": 3,
+              "duration": 85
+            },
+            {
+              "operationSequence": 3,
+              "process": 4,
+              "duration": 52
+            },
+            {
+              "operationSequence": 4,
+              "process": 6,
+              "duration": 81
+            },
+            {
+              "operationSequence": 5,
+              "process": 9,
+              "duration": 32
+            },
+            {
+              "operationSequence": 6,
+              "process": 8,
+              "duration": 39
+            },
+            {
+              "operationSequence": 7,
+              "process": 0,
+              "duration": 59
+            },
+            {
+              "operationSequence": 8,
+              "process": 2,
+              "duration": 41
+            },
+            {
+              "operationSequence": 9,
+              "process": 5,
+              "duration": 56
+            }
+          ]
+        },
+        {
+          "jobID": 8,
+          "operations": [
+            {
+              "operationSequence": 0,
+              "process": 3,
+              "duration": 60
+            },
+            {
+              "operationSequence": 1,
+              "process": 8,
+              "duration": 45
+            },
+            {
+              "operationSequence": 2,
+              "process": 0,
+              "duration": 88
+            },
+            {
+              "operationSequence": 3,
+              "process": 2,
+              "duration": 12
+            },
+            {
+              "operationSequence": 4,
+              "process": 1,
+              "duration": 7
+            },
+            {
+              "operationSequence": 5,
+              "process": 5,
+              "duration": 22
+            },
+            {
+              "operationSequence": 6,
+              "process": 4,
+              "duration": 93
+            },
+            {
+              "operationSequence": 7,
+              "process": 9,
+              "duration": 49
+            },
+            {
+              "operationSequence": 8,
+              "process": 7,
+              "duration": 69
+            },
+            {
+              "operationSequence": 9,
+              "process": 6,
+              "duration": 27
+            }
+          ]
+        },
+        {
+          "jobID": 9,
+          "operations": [
+            {
+              "operationSequence": 0,
+              "process": 0,
+              "duration": 21
+            },
+            {
+              "operationSequence": 1,
+              "process": 2,
+              "duration": 61
+            },
+            {
+              "operationSequence": 2,
+              "process": 3,
+              "duration": 68
+            },
+            {
+              "operationSequence": 3,
+              "process": 5,
+              "duration": 26
+            },
+            {
+              "operationSequence": 4,
+              "process": 6,
+              "duration": 82
+            },
+            {
+              "operationSequence": 5,
+              "process": 9,
+              "duration": 71
+            },
+            {
+              "operationSequence": 6,
+              "process": 8,
+              "duration": 44
+            },
+            {
+              "operationSequence": 7,
+              "process": 4,
+              "duration": 99
+            },
+            {
+              "operationSequence": 8,
+              "process": 7,
+              "duration": 33
+            },
+            {
+              "operationSequence": 9,
+              "process": 1,
+              "duration": 84
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "processes": [
+    {
+      "processID": 0,
+      "eligibleMachines": [
+        0
+      ]
+    },
+    {
+      "processID": 1,
+      "eligibleMachines": [
+        1
+      ]
+    },
+    {
+      "processID": 2,
+      "eligibleMachines": [
+        2
+      ]
+    },
+    {
+      "processID": 3,
+      "eligibleMachines": [
+        3
+      ]
+    },
+    {
+      "processID": 4,
+      "eligibleMachines": [
+        4
+      ]
+    },
+    {
+      "processID": 5,
+      "eligibleMachines": [
+        5
+      ]
+    },
+    {
+      "processID": 6,
+      "eligibleMachines": [
+        6
+      ]
+    },
+    {
+      "processID": 7,
+      "eligibleMachines": [
+        7
+      ]
+    },
+    {
+      "processID": 8,
+      "eligibleMachines": [
+        8
+      ]
+    },
+    {
+      "processID": 9,
+      "eligibleMachines": [
+        9
+      ]
+    }
+  ]
+}
