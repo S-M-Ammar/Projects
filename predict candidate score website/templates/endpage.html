@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+
+  <style type="text/css">
+
+  	body{
+    margin: 0px;
+    padding: 0px;           
+}
+    body{
+       background-image: url("../static/background.jpg");
+      width: 100%;
+      height: 100%;
+    }
+    #regForm {
+  background-color: azure;
+  margin: 200px auto;
+  padding: 40px;
+  width: 70%;
+  height: 170px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500');
+
+
+#btnMain{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+#btnBox{
+    width: 100%;
+    height: 100%;
+    margin-top: 202px;
+    display: block;
+    background-color: dodgerblue;
+    font-family: fantasy;
+    font-size: 32px;
+    color:white;
+    text-align: center;
+    line-height: 70px;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 15px 30px rgba(59,2,97,.4);
+    transition: all .5s;
+}
+#btnBottom{
+    width: 100%;
+    height: 30px;
+    background-color:dodgerblue;
+    position: absolute;
+    left: 0;
+    transform: rotateX(-87deg);
+    transition: all .5s;
+}
+#btnMain:hover #btnBox{
+    color: #52Dee7;
+    background-color: #4A0472;
+    transform: rotateX(25deg);
+    text-shadow: 0 10px 10px rgba(0,0,0,.2);
+    box-shadow: 0 25px 30px rgba(59,2,97,.4);
+}
+#btnMain:hover #btnBottom{
+    transform: rotateX(-70deg);
+    background-color: #4A0472;
+}
+
+@media only screen and (max-device-width: 480px) {
+	div#btnBox {
+		margin-top: -240px !important;
+    }
+}
+
+
+  </style>
+</head>
+<body>
+  	<form id="regForm" action="index.html" method="post">
+  		<h1>Candidate score is : {{ prediction }}</h1>
+
+  		<a href="index.html">
+            <button>Return to HomePage</button>
+		</a>	
+	</form>
+</body>
+</html>

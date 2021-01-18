@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+
+  <style type="text/css">
+    body{
+        background-image: url("../static/background.jpg");
+    }
+    #regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+input.invalid {
+  background-color: #ffdddd;
+}
+
+.tab {
+  display: none;
+}
+
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.step.finish {
+  background-color: #4CAF50;
+}
+  </style>
+</head>
+<body>
+  <form id="regForm" action="endpage.html" method="post">
+
+<h1>Enter Candidate Features For Score Prediction</h1>
+
+
+
+<div class="tab">Enter candidate meticulous score.
+  <p><input type="number" placeholder="Meticulous" oninput="this.className = ''" id="Meticulous" name="Meticulous"></p>
+</div>
+
+<div class="tab">Enter candidate compliance score.
+  <p><input type="number" placeholder="Compliance" oninput="this.className = ''" id="Compliance" name="Compliance"></p>
+</div>
+
+<div class="tab">Enter candidate responsible score.
+  <p><input type="number" placeholder="Responsible" oninput="this.className = ''" id="Responsible" name="Responsible"></p>
+</div>
+
+<div class="tab">Enter candidate resilience score.
+  <p><input type="number" placeholder="Resilience" oninput="this.className = ''" id="Resilience" name="Resilience"></p>
+</div>
+
+<div class="tab">Enter candidate competance score.
+  <p><input type="number" placeholder="Competance" oninput="this.className = ''" id="Competance" name="Competance"></p>
+</div>
+
+
+
+<div class="tab">Select candidate employment type:
+  <select id="employment_type" name="employment_type" style="width: 400px; padding: 10px;">
+    <option value="Full-Time Permanent">Full-Time Permanent</option>
+    <option value="Part-Time Permanent">Part-Time Permanent</option>
+    <option value="Internship">Internship</option>
+    <option value="Contractor">Contractor</option>
+    <option value="Full-Time Temporary">Full-Time Temporary</option>
+    <option value="Part-Time Temporary">Part-Time Temporary</option>
+    <option value="Other">Other</option>
+  </select>
+</div>
+
+<div class="tab">Select candidate education level:
+  <select id="education_level" name="education_level" style="width: 400px; padding: 10px;">
+    <option value="Bachelors">Bachelors</option>
+    <option value="Unspecified">Unspecified</option>
+    <option value="High School/Equivalent">High School/Equivalent</option>
+    <option value="Masters">Masters</option>
+    <option value="MBA">MBA</option>
+    <option value="College">College</option>
+    <option value="Degree">Degree</option>
+    <option value="Certificate">Certificate</option>
+  </select>
+</div>
+
+
+
+<div class="tab">Select candidate MBTI result:
+  <select id="mbti_result" name="mbti_result" style="width: 400px; padding: 10px;">
+    <option value="The Determined Realist - ESTJ">The Determined Realist - ESTJ</option>
+    <option value="The Independent Thinker - INTJ">The Independent Thinker - INTJ</option>
+    <option value="The Engaged Idealist - ENFJ">The Engaged Idealist - ENFJ</option>
+    <option value="The Reliable Realist - ISTJ">The Reliable Realist - ISTJ</option>
+    <option value="The Harmony-seeking Idealist - INFJ">The Harmony-seeking Idealist - INFJ</option>
+    <option value="The Social Realist - ESFJ">The Social Realist - ESFJ</option>
+    <option value="The Good-natured Realist - ISFJ">The Good-natured Realist - ISFJ</option>
+    <option value="The Energetic Doer - ESTP">The Energetic Doer - ESTP</option>
+    <option value="The Dynamic Thinker - ENTJ">The Dynamic Thinker - ENTJ</option>
+    <option value="The Sensitive Doer - ISFP">The Sensitive Doer - ISFP</option>
+    <option value="The Analytical Thinker - INTP">The Analytical Thinker - INTP</option>
+    <option value="The Dreamy Idealist - INFP">The Dreamy Idealist - INFP</option>
+    <option value="The Laid-back Doer - ESFP">The Laid-back Doer - ESFP</option>
+    <option value="The Individualistic Doer - ISTP">The Individualistic Doer - ISTP</option>
+    <option value="The Groundbreaking Thinker - ENTP">The Groundbreaking Thinker - ENTP</option>
+    <option value="The Spontaneous Idealist - ENFP">The Spontaneous Idealist - ENFP</option>
+
+  </select>
+</div>
+
+<div style="overflow:auto;">
+  <div style="float:right;">
+    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+  </div>
+</div>
+
+<div style="text-align:center;margin-top:40px;">
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+  <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+</div>
+
+</form>
+
+<script type="text/javascript">
+    var currentTab = 0;
+showTab(currentTab);
+
+function showTab(n) {
+  var x = document.getElementsByClassName("tab");
+  x[n].style.display = "block";
+  if (n == 0) {
+    document.getElementById("prevBtn").style.display = "none";
+  } else {
+    document.getElementById("prevBtn").style.display = "inline";
+  }
+  if (n == (x.length - 1)) {
+    document.getElementById("nextBtn").innerHTML = "Submit";
+  } else {
+    document.getElementById("nextBtn").innerHTML = "Next";
+  }
+  fixStepIndicator(n)
+}
+
+function nextPrev(n) {
+  var x = document.getElementsByClassName("tab");
+  if (n == 1 && !validateForm()) return false;
+  x[currentTab].style.display = "none";
+  currentTab = currentTab + n;
+  if (currentTab >= x.length) {
+    document.getElementById("regForm").submit();
+    return false;
+  }
+  showTab(currentTab);
+}
+
+function validateForm() {
+  var x, y, i, valid = true;
+  x = document.getElementsByClassName("tab");
+  y = x[currentTab].getElementsByTagName("input");
+  for (i = 0; i < y.length; i++) {
+    if (y[i].value == "") {
+      y[i].className += " invalid";
+      valid = false;
+    }
+  }
+
+  if (valid) {
+    document.getElementsByClassName("step")[currentTab].className += " finish";
+  }
+  return valid;
+}
+
+function fixStepIndicator(n) {
+  var i, x = document.getElementsByClassName("step");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" active", "");
+  }
+  x[n].className += " active";
+}
+
+</script>
+
+</body>
+</html>
