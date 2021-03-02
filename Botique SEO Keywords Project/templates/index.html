@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial; background-image: url("../static/bg.jpg"); background-size: cover;background-repeat: no-repeat; }
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: transparent;
+  width: 80%;
+  margin-left: 80px;
+}
+h2,h4{
+	width: 100%;
+	text-align: center;
+	margin-top: 5%;
+	color:white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border: 2px solid white;
+  border-radius: 0px 20px 20px;
+  margin: 10px;
+}
+
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: orange;
+  border: 2px solid orange;
+}
+
+.parameter-section{
+	width: 80%;
+	height: 350px;
+	padding-top: 20px;
+	border: 1px solid white;
+	border-radius: 15px;
+	box-shadow: 0 0 10px;
+	margin-left: 150px;
+	background-color: white;
+	opacity: 0.9;
+}
+
+#submitbtn{
+	width: 15%;
+	cursor: pointer;
+	float: right;
+	margin-right: 20px;
+	height: 40px;
+	border-radius: 30px;
+	border: 1px solid gray;
+}
+
+#submitbtn:hover{
+	background-color: black;
+	color: white;
+
+}
+
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+  width: 48.2%;
+  margin-left: 90px;
+
+}
+
+.tabcontent input{
+	width: 40%;
+	height: 30px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	border: 1px solid lightgray;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+
+section.container{
+    min-width: 500px;
+    text-align: center;
+  }
+a:hover{
+	border-bottom: 1px solid #111;
+} 
+h1{font-size: 2em; padding: 20px 0;}
+    p{
+      font-size: .75em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 20px 0;
+    }
+
+    section button:hover{cursor: pointer; background-color: black;color: white;}
+    button {
+      background: transparent; outline: none;
+      position: relative;
+      border: 2px solid #111;
+      padding: 15px 50px;
+      overflow: hidden;
+    }
+
+    button:hover:before{opacity: 1; transform: translate(0,0);}
+    button:before{
+      content: attr(data-hover);
+      position: absolute;
+      top: 1.1em; 
+      left: 0;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 800;
+      font-size: .8em;
+      opacity: 0;
+      transform: translate(-100%,0);
+      transition: all .3s ease-in-out;
+    }
+
+      button:hover div{opacity: 0; transform: translate(100%,0)}
+      button div{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 800;
+        font-size: .8em;
+        transition: all .3s ease-in-out;
+      }
+
+      #yourBtn {
+  position: relative;
+  top: 50px;
+  font-family: calibri;
+  width: 150px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px dashed #BBB;
+  text-align: center;
+  background-color: #DDD;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+
+@media only screen and (min-device-width: 1000px){
+	form{
+		padding-left: 60px;
+	}
+
+}
+
+@media only screen and (max-device-width: 480px){
+	.parameter-section{
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 5px;
+		height: 100%;
+	}
+	.tab{
+		margin-left: 0px;
+	}
+	.tab button{
+		padding: 5px;
+		width: 130px;
+	}
+	.tabcontent input{
+		width: 80%;
+		margin-left: 0px;
+	}
+	section.container{
+		min-width: 0px;
+		margin-bottom: 20px;
+	}
+
+	form{
+		padding-left: 0px;
+	}
+
+	form label{
+		margin-left: 0px!important;
+	}
+}
+
+</style>
+</head>
+<body>
+
+<h2>Enter the Min and Max values in the categories tabs</h2>
+<h4>CLICK ON THE TABS TO ENTER THE PAREMETERS</h4>
+
+
+
+
+<div class="parameter-section">
+
+    <div class="tab">
+  <button id="firstTab" class="tablinks" onclick="openTab(event, 'TAB-1')">Most Searched</button>
+  <button class="tablinks" onclick="openTab(event, 'TAB-2')">Highest ROI</button>
+  <button class="tablinks" onclick="openTab(event, 'TAB-3')">Easy Wins</button>
+  <button class="tablinks" onclick="openTab(event, 'TAB-4')">Biggest Traffic Opportunities</button>
+  <button class="tablinks" onclick="openTab(event, 'TAB-5')">Input File</button>
+</div>
+
+	<div id="TAB-1" class="tabcontent">
+	  <h3>Enter Parameters For Most Searched: </h3>
+	  <input type="number" name="most_searched_min_volume"  id="most_searched_min_volume"  placeholder="Enter Min Volume..">
+	  <input type="number" name="most_searched_max_volume" id="most_searched_max_volume"  placeholder="Enter Max Volume..">
+	  <input type="number" name="most_searched_min_diff"  id="most_searched_min_diff"  placeholder="Enter Min Difficulty..">
+	  <input type="number" name="most_searched_max_diff" id="most_searched_max_diff"  placeholder="Enter Max Difficulty..">
+	</div>
+
+	<div id="TAB-2" class="tabcontent">
+	  <h3>Enter Parameters For ROI: </h3>
+	  <input type="number" name="roi_min_volume" id="roi_min_volume" value="" placeholder="Enter Min Volume..">
+	  <input type="number" name="roi_max_volume" id="roi_max_volume" value="" placeholder="Enter Max Volume..">
+	  <input type="number" name="roi_min_diff" id="roi_min_diff"   value="" placeholder="Enter Min Difficulty..">
+	  <input type="number" name="roi_max_diff" id="roi_max_diff"   value="" placeholder="Enter Max Difficulty..">
+	</div>
+
+	<div id="TAB-3" class="tabcontent">
+	  <h3>Enter Parameters For Easy Wins: </h3>
+	  <input type="number" name="easy_wins_min_volume" id="easy_wins_min_volume" value="" placeholder="Enter Min Volume..">
+	  <input type="number" name="easy_wins_max_volume" id="easy_wins_max_volume" value="" placeholder="Enter Max Volume..">
+	  <input type="number" name="easy_wins_min_diff" id="easy_wins_min_diff" value="" placeholder="Enter Min Difficulty..">
+	  <input type="number" name="easy_wins_max_diff" id="easy_wins_max_diff" value="" placeholder="Enter Max Difficulty..">
+	</div>
+
+	<div id="TAB-4" class="tabcontent">
+	  <h3>Enter Parameters For Big Traffic Oppurtunities: </h3>
+	  <input type="number" name="big_traffic_min_volume" id="big_traffic_min_volume" value="" placeholder="Enter Min Volume..">
+	  <input type="number" name="big_traffic_max_volume" id="big_traffic_max_volume" value="" placeholder="Enter Max Volume..">
+	  <input type="number" name="big_traffic_min_diff" id="big_traffic_min_diff" value="" placeholder="Enter Min Difficulty..">
+	  <input type="number" name="big_traffic_max_diff" id="big_traffic_max_diff" value="" placeholder="Enter Max Difficulty..">
+	</div>
+
+	<div id="TAB-5" class="tabcontent">
+	  <form action="/action_page.php">
+  		<label style="margin-left: 150px;" for="myfile">Select a file:</label>
+  		<input style="border: none; margin-top: 50px;" type="file" id="myfile" name="myfile"><br><br>
+		</form>
+	</div>
+
+<section class="container">
+  <button id="myBTN" data-hover="click me!"><div>SUBMIT</div></button>
+</section>
+
+
+</div>
+
+
+<script>
+function openTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+
+function getFile() {
+  document.getElementById("upfile").click();
+}
+
+function sub(obj) {
+  let file = obj.value;
+ 
+  let fileName = file.split("\\");
+  document.getElementById("yourBtn").innerHTML = fileName[fileName.length - 1];
+ 
+}
+
+document.getElementById("myBTN").addEventListener("click",()=>{
+  let most_searched_min_volume = document.getElementById("most_searched_min_volume").value
+  let most_searched_max_volume = document.getElementById("most_searched_max_volume").value
+  let most_searched_min_diff = document.getElementById("most_searched_min_diff").value
+  let most_searched_max_diff = document.getElementById("most_searched_max_diff").value
+
+  let roi_min_volume = document.getElementById("roi_min_volume").value
+  let roi_max_volume = document.getElementById("roi_max_volume").value
+  let roi_min_diff = document.getElementById("roi_min_diff").value
+  let roi_max_diff = document.getElementById("roi_max_diff").value
+
+  let easy_wins_min_volume = document.getElementById("easy_wins_min_volume").value
+  let easy_wins_max_volume = document.getElementById("easy_wins_max_volume").value
+  let easy_wins_min_diff = document.getElementById("easy_wins_min_diff").value
+  let easy_wins_max_diff = document.getElementById("easy_wins_max_diff").value
+
+  let big_traffic_min_volume = document.getElementById("big_traffic_min_volume").value
+  let big_traffic_max_volume = document.getElementById("big_traffic_max_volume").value
+  let big_traffic_min_diff = document.getElementById("big_traffic_min_diff").value
+  let big_traffic_max_diff = document.getElementById("big_traffic_max_diff").value
+
+  let file = document.getElementById("myfile").value;
+  let fileName = file.split("\\");
+  fileName = fileName[fileName.length - 1];
+
+///************** check and complete ******//////////
+
+if(most_searched_min_volume.value==undefined || most_searched_max_volume.value ==undefined || most_searched_max_diff.value==undefined || most_searched_min_diff.value==undefined){
+
+  alert("Most Searched Parameters Missing")
+  console.log(most_searched_min_volume.value)
+
+
+}
+else if(roi_min_volume.value==undefined || roi_max_volume.value==undefined || roi_max_diff.value==undefined || roi_min_diff.value==undefined){
+
+  alert("ROI Parameters Missing")
+
+}
+else if(easy_wins_min_volume.value==undefined || easy_wins_max_volume.value==undefined || easy_wins_max_diff.value==undefined || easy_wins_min_diff.value==undefined)
+{
+  alert("Easy Wins Parameters Missing")
+}
+else if(big_traffic_max_volume.value==undefined || big_traffic_min_volume.value==undefined || big_traffic_min_diff.value==undefined || big_traffic_max_diff.value==undefined){
+
+    alert("Big Traffic Oppurtunities Parameter Missing")
+}
+else if(file.value==undefined || file.value==""){
+
+  alert("No File selected")
+}
+else{
+
+
+  console.log(fileName)
+
+// make a request to server here.....
+
+}
+
+//********************************************************************//
+
+
+  // after submitting // reset //
+  // document.getElementById("myfile").value = ""
+
+  // try{
+
+  // }
+  // catch(e){
+  //   document.getElementById("yourBtn").innerHTML = ""
+  // }
+  
+  // most_searched_min_volume.value = ""
+  // most_searched_max_volume.value = ""
+  // most_searched_min_diff.value = ""
+  // most_searched_max_diff.value = ""
+
+  // roi_min_volume.value = ""
+  // roi_max_volume.value = ""
+  // roi_min_diff.value = ""
+  // roi_min_diff.value = ""
+
+  // easy_wins_min_volume.value = ""
+  // easy_wins_max_volume.value = ""
+  // easy_wins_min_diff.value = ""
+  // easy_wins_max_diff.value = ""
+
+  // big_traffic_max_volume.value = ""
+  // big_traffic_min_volume.value = ""
+  // big_traffic_max_diff.value = ""
+  // big_traffic_min_diff.value = ""
+
+})
+
+
+</script>
+
+
+   
+</body>
+</html> 
