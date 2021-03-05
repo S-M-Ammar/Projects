@@ -220,10 +220,10 @@ h1{font-size: 2em; padding: 20px 0;}
 
 	<div id="TAB-1" class="tabcontent">
 	  <h3>Enter Parameters For Most Searched: </h3>
-	  <input type="number" name="most_searched_min_volume"  id="most_searched_min_volume"  placeholder="Enter Min Volume..">
-	  <input type="number" name="most_searched_max_volume" id="most_searched_max_volume"  placeholder="Enter Max Volume..">
-	  <input type="number" name="most_searched_min_diff"  id="most_searched_min_diff"  placeholder="Enter Min Difficulty..">
-	  <input type="number" name="most_searched_max_diff" id="most_searched_max_diff"  placeholder="Enter Max Difficulty..">
+	  <input type="number" name="most_searched_min_volume"  id="most_searched_min_volume" value="" placeholder="Enter Min Volume..">
+	  <input type="number" name="most_searched_max_volume" id="most_searched_max_volume"  value="" placeholder="Enter Max Volume..">
+	  <input type="number" name="most_searched_min_diff"  id="most_searched_min_diff"  value="" placeholder="Enter Min Difficulty..">
+	  <input type="number" name="most_searched_max_diff" id="most_searched_max_diff"  value="" placeholder="Enter Max Difficulty..">
 	</div>
 
 	<div id="TAB-2" class="tabcontent">
@@ -266,6 +266,9 @@ h1{font-size: 2em; padding: 20px 0;}
 
 
 <script>
+
+var form;
+
 function openTab(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -294,100 +297,107 @@ function sub(obj) {
 }
 
 document.getElementById("myBTN").addEventListener("click",()=>{
-  let most_searched_min_volume = document.getElementById("most_searched_min_volume").value
-  let most_searched_max_volume = document.getElementById("most_searched_max_volume").value
-  let most_searched_min_diff = document.getElementById("most_searched_min_diff").value
-  let most_searched_max_diff = document.getElementById("most_searched_max_diff").value
+  let most_searched_min_volume = document.getElementById("most_searched_min_volume")
+  let most_searched_max_volume = document.getElementById("most_searched_max_volume")
+  let most_searched_min_diff = document.getElementById("most_searched_min_diff")
+  let most_searched_max_diff = document.getElementById("most_searched_max_diff")
 
-  let roi_min_volume = document.getElementById("roi_min_volume").value
-  let roi_max_volume = document.getElementById("roi_max_volume").value
-  let roi_min_diff = document.getElementById("roi_min_diff").value
-  let roi_max_diff = document.getElementById("roi_max_diff").value
+  let roi_min_volume = document.getElementById("roi_min_volume")
+  let roi_max_volume = document.getElementById("roi_max_volume")
+  let roi_min_diff = document.getElementById("roi_min_diff")
+  let roi_max_diff = document.getElementById("roi_max_diff")
 
-  let easy_wins_min_volume = document.getElementById("easy_wins_min_volume").value
-  let easy_wins_max_volume = document.getElementById("easy_wins_max_volume").value
-  let easy_wins_min_diff = document.getElementById("easy_wins_min_diff").value
-  let easy_wins_max_diff = document.getElementById("easy_wins_max_diff").value
+  let easy_wins_min_volume = document.getElementById("easy_wins_min_volume")
+  let easy_wins_max_volume = document.getElementById("easy_wins_max_volume")
+  let easy_wins_min_diff = document.getElementById("easy_wins_min_diff")
+  let easy_wins_max_diff = document.getElementById("easy_wins_max_diff")
 
-  let big_traffic_min_volume = document.getElementById("big_traffic_min_volume").value
-  let big_traffic_max_volume = document.getElementById("big_traffic_max_volume").value
-  let big_traffic_min_diff = document.getElementById("big_traffic_min_diff").value
-  let big_traffic_max_diff = document.getElementById("big_traffic_max_diff").value
+  let big_traffic_min_volume = document.getElementById("big_traffic_min_volume")
+  let big_traffic_max_volume = document.getElementById("big_traffic_max_volume")
+  let big_traffic_min_diff = document.getElementById("big_traffic_min_diff")
+  let big_traffic_max_diff = document.getElementById("big_traffic_max_diff")
 
-  let file = document.getElementById("myfile").value;
-  let fileName = file.split("\\");
+  let file = document.getElementById("myfile");
+
+  let fileName = file.value.split("\\");
   fileName = fileName[fileName.length - 1];
 
-///************** check and complete ******//////////
+  if(most_searched_min_volume.value=="" || most_searched_max_volume.value =="" || most_searched_max_diff.value=="" || most_searched_min_diff.value==""){
 
-if(most_searched_min_volume.value==undefined || most_searched_max_volume.value ==undefined || most_searched_max_diff.value==undefined || most_searched_min_diff.value==undefined){
+    alert("Most Searched Parameters Missing")
+    
+  }
+  else if(roi_min_volume.value=="" || roi_max_volume.value=="" || roi_max_diff.value=="" || roi_min_diff.value==""){
 
-  alert("Most Searched Parameters Missing")
-  console.log(most_searched_min_volume.value)
+    alert("ROI Parameters Missing")
 
+  }
+  else if(easy_wins_min_volume.value==""|| easy_wins_max_volume.value=="" || easy_wins_max_diff.value=="" || easy_wins_min_diff.value=="")
+  {
 
-}
-else if(roi_min_volume.value==undefined || roi_max_volume.value==undefined || roi_max_diff.value==undefined || roi_min_diff.value==undefined){
+    alert("Easy Wins Parameters Missing")
 
-  alert("ROI Parameters Missing")
-
-}
-else if(easy_wins_min_volume.value==undefined || easy_wins_max_volume.value==undefined || easy_wins_max_diff.value==undefined || easy_wins_min_diff.value==undefined)
-{
-  alert("Easy Wins Parameters Missing")
-}
-else if(big_traffic_max_volume.value==undefined || big_traffic_min_volume.value==undefined || big_traffic_min_diff.value==undefined || big_traffic_max_diff.value==undefined){
+  }
+  else if(big_traffic_max_volume.value=="" || big_traffic_min_volume.value=="" || big_traffic_min_diff.value=="" || big_traffic_max_diff.value==""){
 
     alert("Big Traffic Oppurtunities Parameter Missing")
-}
-else if(file.value==undefined || file.value==""){
 
-  alert("No File selected")
-}
-else{
+  }
+  else if(fileName==""){
 
+    alert("No file selected")
 
-  console.log(fileName)
+  }
+  else{
 
-// make a request to server here.....
+    // create a hidden form and submit the parameters
+    form = document.createElement("form")
+    form.setAttribute("method", "post"); 
+    form.setAttribute("action", "results"); 
+    form.style.display = 'none'
+    let parameters_dict = {
+      "most_searched_min_volume":parseInt(most_searched_min_volume.value),
+      "most_searched_max_volume":parseInt(most_searched_max_volume.value),
+      "most_searched_min_diff":parseInt(most_searched_min_diff.value),
+      "most_searched_max_diff":parseInt(most_searched_max_diff.value),
 
-}
+      "roi_min_volume":parseInt(roi_min_volume.value),
+      "roi_max_volume":parseInt(roi_max_volume.value),
+      "roi_min_diff":parseInt(roi_min_diff.value),
+      "roi_max_diff":parseInt(roi_max_diff.value),
 
-//********************************************************************//
+      "easy_wins_min_volume":parseInt(easy_wins_min_volume.value),
+      "easy_wins_max_volume":parseInt(easy_wins_max_volume.value),
+      "easy_wins_min_diff":parseInt(easy_wins_min_diff.value),
+      "easy_wins_max_diff":parseInt(easy_wins_max_diff.value),
 
+      "big_traffic_min_volume":parseInt(big_traffic_min_volume.value),
+      "big_traffic_max_volume":parseInt(big_traffic_max_volume.value),
+      "big_traffic_min_diff":parseInt(big_traffic_min_diff.value),
+      "big_traffic_max_diff":parseInt(big_traffic_max_diff.value),
 
-  // after submitting // reset //
-  // document.getElementById("myfile").value = ""
+      "fileName":fileName
+      
+    }
+    let variables = document.createElement("input")
+    variables.type = "hidden"
+    variables.value = JSON.stringify(parameters_dict)
+    variables.name = "params"
+    form.appendChild(variables)
+    document.body.appendChild(form);
+    form.submit()
+    
+    //reset all parameters//
+    
+  }
 
-  // try{
-
-  // }
-  // catch(e){
-  //   document.getElementById("yourBtn").innerHTML = ""
-  // }
-  
-  // most_searched_min_volume.value = ""
-  // most_searched_max_volume.value = ""
-  // most_searched_min_diff.value = ""
-  // most_searched_max_diff.value = ""
-
-  // roi_min_volume.value = ""
-  // roi_max_volume.value = ""
-  // roi_min_diff.value = ""
-  // roi_min_diff.value = ""
-
-  // easy_wins_min_volume.value = ""
-  // easy_wins_max_volume.value = ""
-  // easy_wins_min_diff.value = ""
-  // easy_wins_max_diff.value = ""
-
-  // big_traffic_max_volume.value = ""
-  // big_traffic_min_volume.value = ""
-  // big_traffic_max_diff.value = ""
-  // big_traffic_min_diff.value = ""
 
 })
 
+form.addEventListener("submit",function(e){
+  e.preventDefault()
+  form.submit()
+})
 
 </script>
 
