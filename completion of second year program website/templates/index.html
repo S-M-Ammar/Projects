@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>University</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="../static/fonts/material-icon/css/material-design-iconic-font.min.css">
+
+
+    <style type="text/css">
+        /* @extend display-flex; */
+display-flex, .signup-content, .form-row, .label-flex, .form-radio-group {
+  display: flex;
+  display: -webkit-flex; }
+
+/* @extend list-type-ulli; */
+list-type-ulli, ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/* poppins-300 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../static/fonts/poppins/poppins-v5-latin-300.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Light"), local("Poppins-Light"), url("../static/fonts/poppins/poppins-v5-latin-300.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-300.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-300.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-300.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-300.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-300italic - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/poppins/poppins-v5-latin-300italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Light Italic"), local("Poppins-LightItalic"), url("../static/fonts/poppins/poppins-v5-latin-300italic.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-300italic.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-300italic.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-300italic.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-300italic.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins/poppins-v5-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Regular"), local("Poppins-Regular"), url("../static/fonts/poppins/poppins-v5-latin-regular.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-regular.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-regular.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-regular.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-regular.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-italic - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/poppins/poppins-v5-latin-italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Italic"), local("Poppins-Italic"), url("../static/fonts/poppins/poppins-v5-latin-italic.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-italic.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-italic.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-italic.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-italic.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-500 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../static/fonts/poppins/poppins-v5-latin-500.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Medium"), local("Poppins-Medium"), url("../static/fonts/poppins/poppins-v5-latin-500.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-500.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-500.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-500.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-500.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-500italic - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: url("../static/fonts/poppins/poppins-v5-latin-500italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Medium Italic"), local("Poppins-MediumItalic"), url("../static/fonts/poppins/poppins-v5-latin-500italic.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-500italic.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-500italic.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-500italic.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-500italic.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-600 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins/poppins-v5-latin-600.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold"), url("../static/fonts/poppins/poppins-v5-latin-600.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-600.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-600.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-600.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-600.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-700 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins/poppins-v5-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Bold"), local("Poppins-Bold"), url("../static/fonts/poppins/poppins-v5-latin-700.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-700.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-700.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-700.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-700.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-700italic - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: url("../static/fonts/poppins/poppins-v5-latin-700italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"), url("../static/fonts/poppins/poppins-v5-latin-700italic.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-700italic.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-700italic.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-700italic.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-700italic.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-800 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../static/fonts/poppins/poppins-v5-latin-800.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins ExtraBold"), local("Poppins-ExtraBold"), url("../static/fonts/poppins/poppins-v5-latin-800.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-800.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-800.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-800.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-800.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-800italic - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/poppins/poppins-v5-latin-800italic.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins ExtraBold Italic"), local("Poppins-ExtraBoldItalic"), url("../static/fonts/poppins/poppins-v5-latin-800italic.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-800italic.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-800italic.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-800italic.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-800italic.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+/* poppins-900 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../static/fonts/poppins/poppins-v5-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local("Poppins Black"), local("Poppins-Black"), url("../static/fonts/poppins/poppins-v5-latin-900.eot?#iefix") format("embedded-opentype"), url("../static/fonts/poppins/poppins-v5-latin-900.woff2") format("woff2"), url("../static/fonts/poppins/poppins-v5-latin-900.woff") format("woff"), url("../static/fonts/poppins/poppins-v5-latin-900.ttf") format("truetype"), url("../static/fonts/poppins/poppins-v5-latin-900.svg#Poppins") format("svg");
+  /* Legacy iOS */ }
+a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+  transition: all 300ms ease 0s;
+  -moz-transition: all 300ms ease 0s;
+  -webkit-transition: all 300ms ease 0s;
+  -o-transition: all 300ms ease 0s;
+  -ms-transition: all 300ms ease 0s; }
+
+input, select, textarea {
+  outline: none;
+  appearance: unset !important;
+  -moz-appearance: unset !important;
+  -webkit-appearance: unset !important;
+  -o-appearance: unset !important;
+  -ms-appearance: unset !important; }
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  -o-appearance: none !important;
+  -ms-appearance: none !important;
+  margin: 0; }
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  -ms-box-shadow: none !important; }
+
+input[type=checkbox] {
+  appearance: checkbox !important;
+  -moz-appearance: checkbox !important;
+  -webkit-appearance: checkbox !important;
+  -o-appearance: checkbox !important;
+  -ms-appearance: checkbox !important; }
+
+input[type=radio] {
+  appearance: radio !important;
+  -moz-appearance: radio !important;
+  -webkit-appearance: radio !important;
+  -o-appearance: radio !important;
+  -ms-appearance: radio !important; }
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 30px transparent inset;
+  -moz-box-shadow: 0 0 0 30px transparent inset;
+  -webkit-box-shadow: 0 0 0 30px transparent inset;
+  -o-box-shadow: 0 0 0 30px transparent inset;
+  -ms-box-shadow: 0 0 0 30px transparent inset;
+  background-color: transparent !important; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+figure {
+  margin: 0; }
+
+p {
+  margin: 0px;
+  font-weight: 600;
+  color: #fff; }
+
+h2 {
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+.clear {
+  clear: both; }
+
+body {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #222;
+  font-weight: 500;
+  font-family: 'Poppins';
+  margin: 0px;
+  padding: 0;
+   }
+
+
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  background: #fff; }
+
+.signup-img {
+  position: relative;
+  width: 500px; }
+
+.signup-form {
+  width: 1015px;
+  margin-top: -2px; }
+
+.signup-img-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%; }
+
+.register-form {
+  padding: 93px 115px 90px 80px;
+  margin-bottom: -8px; }
+
+.form-row {
+  margin: 0 -30px; }
+  .form-row .form-group {
+    width: 50%;
+    padding: 0 30px; }
+
+.form-input, .form-select, .form-radio {
+  margin-bottom: 23px; }
+
+label, input {
+  display: block;
+  width: 100%; }
+
+label {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 7px; }
+
+label.required {
+  position: relative; }
+  label.required:after {
+    content: '*';
+    margin-left: 2px;
+    color: #b90000; }
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #ebebeb;
+  padding: 14px 20px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  font-size: 14px;
+  font-family: 'Poppins'; }
+  input:focus {
+    border: 1px solid #329e5e; }
+
+.label-flex {
+  justify-content: space-between;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -o-justify-content: space-between;
+  -ms-justify-content: space-between; }
+  .label-flex label {
+    width: auto; }
+
+.form-link {
+  font-size: 12px;
+  color: #222;
+  text-decoration: none;
+  position: relative; }
+  .form-link:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #d7d7d7;
+    left: 0;
+    bottom: 12px; }
+
+.form-radio {
+  margin-bottom: 18px; }
+  .form-radio input {
+    width: auto;
+    display: inline-block; }
+
+.radio-label {
+  padding-right: 72px; }
+
+.form-radio-group {
+  padding-bottom: 10px;
+  padding-top: 12px; }
+
+.form-radio-item {
+  position: relative;
+  margin-right: 30px; }
+  .form-radio-item label {
+    font-weight: 500;
+    padding-left: 30px;
+    position: relative;
+    z-index: 9;
+    display: block;
+    cursor: pointer;
+    text-transform: none; }
+
+.check {
+  display: inline-block;
+  position: absolute;
+  border: 1px solid #ebebeb;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  top: 2px;
+  left: 0px;
+  z-index: 5;
+  transition: border .25s linear;
+  -webkit-transition: border .25s linear; }
+  .check:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    top: 3px;
+    left: 3px;
+    margin: auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear; }
+
+input[type=radio] {
+  position: absolute;
+  visibility: hidden; }
+  input[type=radio]:checked ~ .check {
+    border: 1px solid #329e5e; }
+  input[type=radio]:checked ~ .check::before {
+    background: #329e5e; }
+
+ul {
+  background: 0 0;
+  position: relative;
+  z-index: 9;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px; }
+
+ul li {
+  padding: 13px 20px;
+  z-index: 2;
+  color: #222; }
+
+ul li:not(.init) {
+  display: none;
+  background: #fff;
+  color: #222;
+  padding: 5px 10px; }
+
+ul li:not(.init):hover, ul li.selected:not(.init) {
+  background: #329e5e;
+  color: #fff; }
+
+li.init {
+  cursor: pointer;
+  position: relative; }
+  li.init:after {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    font-size: 22px;
+    color: #222;
+    font-family: 'Material-Design-Iconic-Font';
+    content: '\f2f2'; }
+
+#slider-margin {
+  height: 5px;
+  border: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  background: #f8f8f8;
+  border-radius: 2.5px;
+  -moz-border-radius: 2.5px;
+  -webkit-border-radius: 2.5px;
+  -o-border-radius: 2.5px;
+  -ms-border-radius: 2.5px; }
+  #slider-margin .noUi-connect {
+    background: #329e5e; }
+  #slider-margin .noUi-handle {
+    width: 100px;
+    height: 30px;
+    top: -12px;
+    background: #329e5e;
+    box-shadow: 0px 3px 2.85px 0.15px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 3px 2.85px 0.15px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 3px 2.85px 0.15px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0px 3px 2.85px 0.15px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0px 3px 2.85px 0.15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    outline: none;
+    border: none;
+    right: -50px; }
+    #slider-margin .noUi-handle:after, #slider-margin .noUi-handle:before {
+      background: transparent;
+      height: 0px;
+      width: 20px;
+      top: -2px;
+      font-size: 18px;
+      outline: none; }
+    #slider-margin .noUi-handle:before {
+      font-family: 'Material-Design-Iconic-Font';
+      color: #fff;
+      content: '\f2fa';
+      left: 10px; }
+    #slider-margin .noUi-handle:after {
+      font-family: 'Material-Design-Iconic-Font';
+      color: #fff;
+      content: '\f2fb';
+      left: auto;
+      right: -5px; }
+    #slider-margin .noUi-handle .noUi-tooltip {
+      bottom: 2px;
+      border: none;
+      background: transparent;
+      font-weight: bold;
+      color: #fff;
+      padding: 0px; }
+
+.donate-us {
+  margin-bottom: 93px;
+  margin-top: 30px; }
+  .donate-us label {
+    margin-bottom: 32px; }
+
+.price_slider {
+  position: relative; }
+
+.donate-value {
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  z-index: 99;
+  transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%); }
+
+.form-submit {
+  text-align: right; }
+
+.submit {
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px; }
+
+#reset {
+  background: #fff;
+  color: #999;
+  border: 2px solid #ebebeb; }
+  #reset:hover {
+    border: 2px solid #329e5e;
+    background: #329e5e;
+    color: #fff; }
+
+#submit {
+  background: #329e5e;
+  color: #fff;
+  margin-right: 25px; }
+  #submit:hover {
+    background-color: #267747; }
+
+.form-input {
+  position: relative; }
+
+label.error {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0; }
+  label.error:after {
+    font-family: 'Material-Design-Iconic-Font';
+    position: absolute;
+    content: '\f1f8';
+    right: 20px;
+    top: 37px;
+    font-size: 23px;
+    color: #c70000; }
+
+input.error {
+  border: 1px solid #c70000; }
+
+.select-list {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 47px; }
+
+.list-item {
+  position: absolute;
+  width: 100%;
+  z-index: 99; }
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: calc( 100% - 30px);
+    max-width: 100%;
+    margin: 0 auto; }
+
+  .signup-img {
+    display: none; }
+
+  .signup-form {
+    width: 100%; }
+
+  .register-form {
+    padding: 93px 80px 90px 80px; } }
+@media screen and (max-width: 992px) {
+  .signup-content {
+    width: 100%; }
+
+  .form-radio-item {
+    margin-right: 15px; }
+
+  .register-form {
+    padding: 93px 30px 90px 30px; } }
+@media screen and (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -o-flex-direction: column;
+    -ms-flex-direction: column;
+    margin: 0px; }
+
+  .form-row .form-group {
+    width: 100%;
+    padding: 0 0px; } }
+@media screen and (max-width: 480px) {
+  .submit {
+    width: 100%; }
+
+  #submit {
+    margin-bottom: 20px;
+    margin-right: 0px; }
+
+  .form-radio-group {
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -o-flex-direction: column;
+    -ms-flex-direction: column; } }
+
+    h1{
+        font-size: 35px;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="../static/images/form2.jpg" alt="" style="height: 650px;">
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form" action="/results">
+                        <h1>Completion of 2nd Year Program</h1>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="mission" class="required">Mission</label>
+                                    <input type="number" name="mission" id="mission" placeholder="Enter the numbers" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="performance_level" class="required">Match Region Performance Level</label>
+                                    <input type="number" name="performance_level" id="performance_level" placeholder="Enter the numbers" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="fast_app" class="required">Fast App</label>
+                                    <input type="number" name="fast_app" id="fast_app" placeholder="Enter the numbers"/>
+                                </div>
+                    
+                            </div>
+                            <div class="form-group">
+                                <div class="form-select">
+                                    <div class="label-flex">
+                                        <label for="meal_preference">univ major</label>
+                                    </div>
+                                    <div class="select-list">
+                                        <select name="meal_preference" id="meal_preference">
+                                            <option>Please Select</option>
+                                            <option value="classics">Classics</option>
+                                            <option value="exerciseScience">Exercise Science</option>
+                                            <option value="finance">Finance</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-radio">
+                                    <div class="form-radio-group">            
+                                        <div class="form-radio-item">
+                                            <input type="checkbox" name="low_income" id="cash">
+                                            <label for="cash" style="display: inline;">Low Income</label>
+                                            
+                                        </div>
+                                        
+                                        <div class="form-radio-item">
+                                            <input type="checkbox" name="Subject_Tech_Map" id="subject">
+                                            <label for="subject" style="display: inline;">Subject Tech Map</label>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Submit" class="submit" id="btnSubmit" name="btnSubmit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="../static/vendor/jquery/jquery.min.js"></script>
+    <script src="../static/vendor/nouislider/nouislider.min.js"></script>
+    <script src="../static/vendor/wnumb/wNumb.js"></script>
+    <script src="../static/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="../static/vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script type="text/javascript">
+        (function($) {
+
+  // $('#meal_preference').parent().append('<ul class="list-item" id="newmeal_preference" name="meal_preference"></ul>');
+  // $('#meal_preference option').each(function(){
+  //     $('#newmeal_preference').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li>');
+  // });
+  // $('#meal_preference').remove();
+  // $('#newmeal_preference').attr('id', 'meal_preference');
+  // $('#meal_preference li').first().addClass('init');
+  // $("#meal_preference").on("click", ".init", function() {
+  //     $(this).closest("#meal_preference").children('li:not(.init)').toggle();
+  // });
+  
+  // var allOptions = $("#meal_preference").children('li:not(.init)');
+  // $("#meal_preference").on("click", "li:not(.init)", function() {
+  //     allOptions.removeClass('selected');
+  //     $(this).addClass('selected');
+  //     $("#meal_preference").children('.init').html($(this).html());
+  //     allOptions.toggle();
+  // });
+
+  // var marginSlider = document.getElementById('slider-margin');
+  // if (marginSlider != undefined) {
+  //     noUiSlider.create(marginSlider, {
+  //           start: [500],
+  //           step: 10,
+  //           connect: [true, false],
+  //           tooltips: [true],
+  //           range: {
+  //               'min': 0,
+  //               'max': 1000
+  //           },
+  //           format: wNumb({
+  //               decimals: 0,
+  //               thousand: ',',
+  //               prefix: '$ ',
+  //           })
+  //   });
+  // }
+  $('#reset').on('click', function(){
+      $('#register-form').reset();
+  });
+
+//   $('#register-form').validate({
+//     rules : {
+//         mission : {
+//             required: true,
+//         },
+//         performance_level : {
+//             required: true,
+//         },
+//         fast_app : {
+//             required: true
+//         },
+//         email : {
+//             required: true,
+//             email : true
+//         },
+//         phone_number : {
+//             required: true,
+//         },
+//         meal_preference:{
+//           required: true,
+//         }
+//     },
+//     onfocusout: function(element) {
+//         $(element).valid();
+//     },
+// });
+
+    jQuery.extend(jQuery.validator.messages, {
+        required: "",
+        remote: "",
+        email: "",
+        url: "",
+        date: "",
+        dateISO: "",
+        number: "",
+        digits: "",
+        creditcard: "",
+        equalTo: ""
+    });
+})(jQuery);
+
+let form = document.getElementById('register-form')
+form.addEventListener('submit',(e)=>{
+  e.preventDefault()
+
+  let mission_value = document.getElementById('mission')
+  let match_regon_perf = document.getElementById('performance_level')
+  let fast_app = document.getElementById('fast_app')
+  let univ_major_pref = document.getElementById("meal_preference")
+  // let low_income = document.getElementById('cash')
+  // low_income = low_income.value
+
+  // let subject = document.getElementById('subject')
+  // subject = subject.value
+
+  if(mission_value.value=="" || parseFloat(mission_value.value) < 0){
+    alert("Invalid Mission Value")
+  }
+  else if(match_regon_perf.value=="" || parseFloat(match_regon_perf.value) < 0){
+    alert("Invalid Match region performance value")
+  }
+  else if(fast_app.value=="" || parseFloat(fast_app.value) < 0){
+    alert("Invalid Fast app value")
+  }
+  else if(univ_major_pref.value=="" || univ_major_pref.value=="Please Select"){
+    alert("Invalid Uni Major")
+  }
+  else{
+    form.submit()  
+  }
+})
+    </script>
+</body>
+</html>
