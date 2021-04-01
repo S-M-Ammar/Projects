@@ -1,0 +1,750 @@
+Land,Name,Party
+Schleswig-Holstein,"Börnsen, Wolfgang",CDU
+Schleswig-Holstein,"Liebing, Ingbert",CDU
+Schleswig-Holstein,"Koschorrek, Rolf",CDU
+Schleswig-Holstein,"Wadephul, Johann David",CDU
+Schleswig-Holstein,"Murmann, Philipp",CDU
+Schleswig-Holstein,"Schröder, Ole",CDU
+Schleswig-Holstein,"Storjohann, Gero",CDU
+Schleswig-Holstein,"Gädechens, Ingo",CDU
+Schleswig-Holstein,"Brackmann, Norbert",CDU
+Schleswig-Holstein,"Bartels, Hans-Peter",SPD
+Schleswig-Holstein,"Hiller-Ohm, Gabriele",SPD
+Schleswig-Holstein,"Rossmann, Ernst Dieter",SPD
+Schleswig-Holstein,"Hagedorn, Bettina",SPD
+Schleswig-Holstein,"Thönnes, Franz",SPD
+Schleswig-Holstein,"Rix, Sönke",SPD
+Schleswig-Holstein,"Koppelin, Jürgen",FDP
+Schleswig-Holstein,"Happach-Kasan, Christel",FDP
+Schleswig-Holstein,"Blumenthal, Sebastian",FDP
+Schleswig-Holstein,"Aschenberg-Dugnus, Christine",FDP
+Schleswig-Holstein,"Möhring, Cornelia",Linke
+Schleswig-Holstein,"Sharma, Raju",Linke
+Schleswig-Holstein,"Nestle, Ingrid",Grüne
+Schleswig-Holstein,"von Notz, Konstantin",Grüne
+Schleswig-Holstein,"Wilms, Valerie",Grüne
+Schleswig-Holstein,"Wagner, Arfst",Grüne
+Mecklenburg-Vorpommern,"Strenz, Karin",CDU
+Mecklenburg-Vorpommern,"Monstadt, Dietrich",CDU
+Mecklenburg-Vorpommern,"Merkel, Angela",CDU
+Mecklenburg-Vorpommern,"Lietz, Matthias",CDU
+Mecklenburg-Vorpommern,"Rehberg, Eckhardt",CDU
+Mecklenburg-Vorpommern,"Poland, Christoph",CDU
+Mecklenburg-Vorpommern,"Hacker, Hans-Joachim",SPD
+Mecklenburg-Vorpommern,"Steffen, Sonja Amalie",SPD
+Mecklenburg-Vorpommern,"Ahrendt, Christian",FDP
+Mecklenburg-Vorpommern,"Reinhold, Hagen",FDP
+Mecklenburg-Vorpommern,"Bockhahn, Steffen",Linke
+Mecklenburg-Vorpommern,"Bartsch, Dietmar",Linke
+Mecklenburg-Vorpommern,"Bunge, Martina",Linke
+Mecklenburg-Vorpommern,"Bluhm, Heidrun",Linke
+Mecklenburg-Vorpommern,"Terpe, Harald",Grüne
+Hamburg,"Kruse, Rüdiger",CDU
+Hamburg,"Fischer, Dirk",CDU
+Hamburg,"Klimke, Jürgen",CDU
+Hamburg,"Weinberg, Marcus",CDU
+Hamburg,"Kahrs, Johannes",SPD
+Hamburg,"Scholz, Olaf",SPD
+Hamburg,"Klose, Hans-Ulrich",SPD
+Hamburg,"OezoguzÖzo_uz, Aydan",SPD
+Hamburg,"Egloff, Ingo",SPD
+Hamburg,"Müller-Sönksen, Burkhardt",FDP
+Hamburg,"Canel, Sylvia",FDP
+Hamburg,"van Aken, Jan",Linke
+Hamburg,"Sager, Krista",Grüne
+Hamburg,"Sarrazin, Manuel",Grüne
+Niedersachsen,"Connemann, Gitta",CDU
+Niedersachsen,"Kossendey, Thomas",CDU
+Niedersachsen,"Grotelüschen, Astrid",CDU
+Niedersachsen,"Ferlemann, Enak",CDU
+Niedersachsen,"Krogmann, Martina",CDU
+Niedersachsen,"Kues, Hermann",CDU
+Niedersachsen,"Holzenkamp, Franz-Josef",CDU
+Niedersachsen,"Knoerig, Axel",CDU
+Niedersachsen,"Mattfeldt, Andreas",CDU
+Niedersachsen,"Grindel, Reinhard",CDU
+Niedersachsen,"Grosse-Brömer, Michael",CDU
+Niedersachsen,"Pols, Eckhard",CDU
+Niedersachsen,"Schirmbeck, Georg",CDU
+Niedersachsen,"Middelberg, Mathias",CDU
+Niedersachsen,"Otte, Henning",CDU
+Niedersachsen,"Lach, Günter",CDU
+Niedersachsen,"von der Leyen, Ursula",CDU
+Niedersachsen,"von Klaeden, Eckart",CDU
+Niedersachsen,"Flachsbarth, Maria",CDU
+Niedersachsen,"Pawelski, Rita",CDU
+Niedersachsen,"Fischer, Hartwig",CDU
+Niedersachsen,"Kammer, Hans-Werner",CDU
+Niedersachsen,"Klamt, Ewa",CDU
+Niedersachsen,"Duin, Garrelt",SPD
+Niedersachsen,"Evers-Meyer, Karin",SPD
+Niedersachsen,"Edathy, Sebastian",SPD
+Niedersachsen,"Tack, Kerstin",SPD
+Niedersachsen,"Bulmahn, Edelgard",SPD
+Niedersachsen,"Marks, Caren",SPD
+Niedersachsen,"Heil, Hubertus",SPD
+Niedersachsen,"Lösekrug-Möller, Gabriele",SPD
+Niedersachsen,"Miersch, Matthias",SPD
+Niedersachsen,"Brinkmann, Bernhard",SPD
+Niedersachsen,"Gabriel, Sigmar",SPD
+Niedersachsen,"Reimann, Carola",SPD
+Niedersachsen,"Priesmeier, Wilhelm",SPD
+Niedersachsen,"Oppermann, Thomas",SPD
+Niedersachsen,"Klingbeil, Lars",SPD
+Niedersachsen,"Lühmann, Kirsten",SPD
+Niedersachsen,"Ortel, Holger",SPD
+Niedersachsen,"Barchmann, Hans-Joachim",SPD
+Niedersachsen,"Schwanholz, Martin",SPD
+Niedersachsen,"Groneberg, Gabriele",SPD
+Niedersachsen,"Thiele, Carl-Ludwig",FDP
+Niedersachsen,"Winterstein, Claudia",FDP
+Niedersachsen,"Goldmann, Hans-Michael",FDP
+Niedersachsen,"Brunkhorst, Angelika",FDP
+Niedersachsen,"Döring, Patrick",FDP
+Niedersachsen,"Bracht-Bendt, Nicole",FDP
+Niedersachsen,"Bernschneider, Florian",FDP
+Niedersachsen,"Tören, Serkan",FDP
+Niedersachsen,"Knopek, Lutz",FDP
+Niedersachsen,"Ratjen-Damerau, Christiane",FDP
+Niedersachsen,"Dehm-Desoi, Jörg-Diether",Linke
+Niedersachsen,"Menzner, Dorothée",Linke
+Niedersachsen,"Dittrich, Heidrun",Linke
+Niedersachsen,"Schui, Herbert",Linke
+Niedersachsen,"Krellmann, Jutta",Linke
+Niedersachsen,"Behrens, Herbert",Linke
+Niedersachsen,"Voß, Johanna",Linke
+Niedersachsen,"Pothmer, Brigitte",Grüne
+Niedersachsen,"Trittin, Jürgen",Grüne
+Niedersachsen,"Steiner, Dorothea",Grüne
+Niedersachsen,"Hoppe, Thilo",Grüne
+Niedersachsen,"Keul, Katja",Grüne
+Niedersachsen,"Kindler, Sven-Christian",Grüne
+Niedersachsen,"von Cramon-Taubadel, Viola",Grüne
+Bremen,"Neumann, Bernd",CDU
+Bremen,"Sieling, Carsten",SPD
+Bremen,"Beckmeyer, Uwe",SPD
+Bremen,"Staffeldt, Torsten",FDP
+Bremen,"Alpers, Agnes",Linke
+Bremen,"Beck, Marieluise",Grüne
+Brandenburg,"Stübgen, Michael",CDU
+Brandenburg,"Reiche, Katherina",CDU
+Brandenburg,"Voßhoff, Andrea",CDU
+Brandenburg,"Koeppen, Jens",CDU
+Brandenburg,"von der Marwitz, Hans-Georg",CDU
+Brandenburg,"Ziegler, Dagmar",SPD
+Brandenburg,"Krüger-Leißner, Angelika",SPD
+Brandenburg,"Steinmeier, Frank-Walter",SPD
+Brandenburg,"Wicklein, Andrea",SPD
+Brandenburg,"Danckert, Dr. Peter",SPD
+Brandenburg,"Lanfermann, Heinz",FDP
+Brandenburg,"Neumann, Martin",FDP
+Brandenburg,"Stüber, Sabine",Linke
+Brandenburg,"Enkelmann, Dagmar",Linke
+Brandenburg,"Nord, Thomas",Linke
+Brandenburg,"Ne_kovi_, Wolfgang",no caucus
+Brandenburg,"Tackmann, Kirsten",Linke
+Brandenburg,"Golze, Diana",Linke
+Brandenburg,"Behm, Cornelia",Grüne
+Sachsen-Anhalt,"Behrens, Manfred",CDU
+Sachsen-Anhalt,"Brehmer, Heike",CDU
+Sachsen-Anhalt,"Petzold, Ulrich",CDU
+Sachsen-Anhalt,"Stier, Dieter",CDU
+Sachsen-Anhalt,"Bergner, Christoph",CDU
+Sachsen-Anhalt,"Wolff, Waltrud",SPD
+Sachsen-Anhalt,"Lischka, Burkhard",SPD
+Sachsen-Anhalt,"Schmidt, Sylvia",SPD
+Sachsen-Anhalt,"Pieper, Cornelia",FDP
+Sachsen-Anhalt,"Ackermann, Jens",FDP
+Sachsen-Anhalt,"Kunert, Katrin",Linke
+Sachsen-Anhalt,"Hein, Rosemarie",Linke
+Sachsen-Anhalt,"Korte, Jan",Linke
+Sachsen-Anhalt,"Sitte, Petra",Linke
+Sachsen-Anhalt,"Koch, Harald",Linke
+Sachsen-Anhalt,"Claus, Roland",Linke
+Sachsen-Anhalt,"Kurth, Undine",Grüne
+Berlin,"Steffel, Frank",CDU
+Berlin,"Wegner, Kai",CDU
+Berlin,"Wellmann, Karl-Georg",CDU
+Berlin,"Luczak, Jan-Marco",CDU
+Berlin,"Vogelsang, Stefanie",CDU
+Berlin,"Grütters, Monika",CDU
+Berlin,"Högl, Eva",SPD
+Berlin,"Merkel, Petra",SPD
+Berlin,"Thierse, Wolfgang",SPD
+Berlin,"Schulz, Swen",SPD
+Berlin,"Rawert, Mechthild",SPD
+Berlin,"Lindner, Martin",FDP
+Berlin,"Lindemann, Lars",FDP
+Berlin,"Königshaus, Hellmut",FDP
+Berlin,"Krestel, Holger",FDP
+Berlin,"Liebich, Stefan",Linke
+Berlin,"Gysi, Gregor",Linke
+Berlin,"Pau, Petra",Linke
+Berlin,"Lötzsch, Gesine",Linke
+Berlin,"Wawzyniak, Halina",Linke
+Berlin,"Ströbele, Hans-Christian",Grüne
+Berlin,"Künast, Renate",Grüne
+Berlin,"Wieland, Wolfgang",Grüne
+Berlin,"Paus, Elisabeth",Grüne
+Nordrhein-Westfalen,"Henke, Rudolf",CDU
+Nordrhein-Westfalen,"Brandt, Helmut",CDU
+Nordrhein-Westfalen,"Dautzenberg, Leo",CDU
+Nordrhein-Westfalen,"Rachel, Thomas",CDU
+Nordrhein-Westfalen,"Zylajew, Willi",CDU
+Nordrhein-Westfalen,"Seif, Detlef",CDU
+Nordrhein-Westfalen,"Paul, Michael",CDU
+Nordrhein-Westfalen,"Winkelmeier-Becker, Elisabeth",CDU
+Nordrhein-Westfalen,"Röttgen, Norbert",CDU
+Nordrhein-Westfalen,"Flosbach, Klaus-Peter",CDU
+Nordrhein-Westfalen,"Bosbach, Wolfgang",CDU
+Nordrhein-Westfalen,"Hardt, Jürgen",CDU
+Nordrhein-Westfalen,"Noll, Michaela",CDU
+Nordrhein-Westfalen,"Beyer, Peter",CDU
+Nordrhein-Westfalen,"Jarzombek, Thomas",CDU
+Nordrhein-Westfalen,"Philipp, Beatrix",CDU
+Nordrhein-Westfalen,"Gröhe, Hermann",CDU
+Nordrhein-Westfalen,"Krings, Günter",CDU
+Nordrhein-Westfalen,"Heveling, Ansgar",CDU
+Nordrhein-Westfalen,"Schummer, Uwe",CDU
+Nordrhein-Westfalen,"Pofalla, Ronald",CDU
+Nordrhein-Westfalen,"Weiss, Sabine",CDU
+Nordrhein-Westfalen,"Spahn, Jens",CDU
+Nordrhein-Westfalen,"Röring, Johannes",CDU
+Nordrhein-Westfalen,"Schiewerling, Karl",CDU
+Nordrhein-Westfalen,"Jasper, Dieter",CDU
+Nordrhein-Westfalen,"Polenz, Ruprecht",CDU
+Nordrhein-Westfalen,"Sendker, Reinhold",CDU
+Nordrhein-Westfalen,"Brinkhaus, Ralph",CDU
+Nordrhein-Westfalen,"Strothmann, Lena",CDU
+Nordrhein-Westfalen,"Kampeter, Steffen",CDU
+Nordrhein-Westfalen,"Herrmann, Jürgen",CDU
+Nordrhein-Westfalen,"Linnemann, Carsten",CDU
+Nordrhein-Westfalen,"Schulte-Drüggelte, Bernhard",CDU
+Nordrhein-Westfalen,"Sensburg, Patrick",CDU
+Nordrhein-Westfalen,"Klein, Volkmar",CDU
+Nordrhein-Westfalen,"Heider, Matthias",CDU
+Nordrhein-Westfalen,"Lammert, Norbert",CDU
+Nordrhein-Westfalen,"Heinen-Esser, Ursula",CDU
+Nordrhein-Westfalen,"Hintze, Peter",CDU
+Nordrhein-Westfalen,"Fischbach, Ingrid",CDU
+Nordrhein-Westfalen,"Dött, Marie-Luise",CDU
+Nordrhein-Westfalen,"Brauksiepe, Ralf",CDU
+Nordrhein-Westfalen,"Mißfelder, Philipp",CDU
+Nordrhein-Westfalen,"Fritz, Erich",CDU
+Nordrhein-Westfalen,"Caesar, Cajus",CDU
+Nordrhein-Westfalen,"Hüppe, Hubert",CDU
+Nordrhein-Westfalen,"Dörmann, Martin",SPD
+Nordrhein-Westfalen,"Mützenich, Rolf",SPD
+Nordrhein-Westfalen,"Kelber, Ulrich",SPD
+Nordrhein-Westfalen,"Lauterbach, Karl",SPD
+Nordrhein-Westfalen,"Zöllmer, Manfred",SPD
+Nordrhein-Westfalen,"Ehrmand, Siegmund",SPD
+Nordrhein-Westfalen,"Bas, Bärbel",SPD
+Nordrhein-Westfalen,"Pflug, Johannes",SPD
+Nordrhein-Westfalen,"Groschek, Michael",SPD
+Nordrhein-Westfalen,"Schaaf, Anton",SPD
+Nordrhein-Westfalen,"Hempelmann, Rolf",SPD
+Nordrhein-Westfalen,"Hinz, Petra",SPD
+Nordrhein-Westfalen,"Schwabe, Frank",SPD
+Nordrhein-Westfalen,"Groß, Michael",SPD
+Nordrhein-Westfalen,"Poß, Joachim",SPD
+Nordrhein-Westfalen,"Gerdes, Michael",SPD
+Nordrhein-Westfalen,"Schwartze, Stefan",SPD
+Nordrhein-Westfalen,"Becker, Dirk",SPD
+Nordrhein-Westfalen,"Röspel, René",SPD
+Nordrhein-Westfalen,"Humme, Christel",SPD
+Nordrhein-Westfalen,"Schäfer, Axel",SPD
+Nordrhein-Westfalen,"Bollmann, Gerd",SPD
+Nordrhein-Westfalen,"Bülow, Marco",SPD
+Nordrhein-Westfalen,"Burchardt, Ursula",SPD
+Nordrhein-Westfalen,"Kaczmarek, Oliver",SPD
+Nordrhein-Westfalen,"Wiefelspütz, Dieter",SPD
+Nordrhein-Westfalen,"Freitag, Dagmar",SPD
+Nordrhein-Westfalen,"Müntefering, Franz",SPD
+Nordrhein-Westfalen,"Schwall-Düren, Angelica",SPD
+Nordrhein-Westfalen,"Steinbrück, Peer",SPD
+Nordrhein-Westfalen,"Schmidt, Ulla",SPD
+Nordrhein-Westfalen,"Brase, Willi",SPD
+Nordrhein-Westfalen,"Brandner, Klaus",SPD
+Nordrhein-Westfalen,"Strässer, Christoph",SPD
+Nordrhein-Westfalen,"Hendricks, Barbara",SPD
+Nordrhein-Westfalen,"Arndt-Brauer, Ingrid",SPD
+Nordrhein-Westfalen,Dietmar Nietan,SPD
+Nordrhein-Westfalen,"Crone, Petra",SPD
+Nordrhein-Westfalen,"Scheelen, Bernd",SPD
+Nordrhein-Westfalen,"Griese, Kerstin",SPD
+Nordrhein-Westfalen,"Hellmich, Wolfgang",SPD
+Nordrhein-Westfalen,"Westerwelle, Guido",FDP
+Nordrhein-Westfalen,"Piltz, Gisela",FDP
+Nordrhein-Westfalen,"van Essen, Jörg",FDP
+Nordrhein-Westfalen,"Hoyer, Werner",FDP
+Nordrhein-Westfalen,"Kopp, Gudrun",FDP
+Nordrhein-Westfalen,"Flach, Ulrike",FDP
+Nordrhein-Westfalen,"Fricke, Otto",FDP
+Nordrhein-Westfalen,"Bahr, Daniel",FDP
+Nordrhein-Westfalen,"Lindner, Christian",FDP
+Nordrhein-Westfalen,"Kauch, Michael",FDP
+Nordrhein-Westfalen,"Schäffler, Frank",FDP
+Nordrhein-Westfalen,"Friedhoff, Paul",FDP
+Nordrhein-Westfalen,"Djir-Sarai, Bijan",FDP
+Nordrhein-Westfalen,"Müller, Petra",FDP
+Nordrhein-Westfalen,"Daub, Helga",FDP
+Nordrhein-Westfalen,"Vogel, Johannes",FDP
+Nordrhein-Westfalen,"Bögel, Claudia",FDP
+Nordrhein-Westfalen,"Molitor, Helga",FDP
+Nordrhein-Westfalen,"Kamp, Heiner",FDP
+Nordrhein-Westfalen,"Buschmann, Marco",FDP
+Nordrhein-Westfalen,"von Polheim, Jörg",FDP
+Nordrhein-Westfalen,"Todtenhausen, Manfred",FDP
+Nordrhein-Westfalen,"Ehrenberg, Hans-Werner",FDP
+Nordrhein-Westfalen,"Lötzer, Ursula",Linke
+Nordrhein-Westfalen,"Jelpke, Ursula",Linke
+Nordrhein-Westfalen,"Höger, Inge",Linke
+Nordrhein-Westfalen,"Schäfer, Paul",Linke
+Nordrhein-Westfalen,"Wagenknecht, Sahra",Linke
+Nordrhein-Westfalen,"Hunko, Andrej",Linke
+Nordrhein-Westfalen,"Da_delen, Sevim",Linke
+Nordrhein-Westfalen,"Movassat, Niema",Linke
+Nordrhein-Westfalen,"Remmers, Ingrid",Linke
+Nordrhein-Westfalen,"Birkwald, Matthias",Linke
+Nordrhein-Westfalen,"Vogler, Kathrin",Linke
+Nordrhein-Westfalen,"Höhn, Bärbel",Grüne
+Nordrhein-Westfalen,"Beck, Volker",Grüne
+Nordrhein-Westfalen,"Haßelmann, Britta",Grüne
+Nordrhein-Westfalen,"Schmidt, Frithjof",Grüne
+Nordrhein-Westfalen,"Dörner, Katja",Grüne
+Nordrhein-Westfalen,"Kurth, Markus",Grüne
+Nordrhein-Westfalen,"Koczy, Ute",Grüne
+Nordrhein-Westfalen,"Krischer, Oliver",Grüne
+Nordrhein-Westfalen,"Müller, Kerstin",Grüne
+Nordrhein-Westfalen,"Gehring, Kai",Grüne
+Nordrhein-Westfalen,"Klein-Schmeink, Maria",Grüne
+Nordrhein-Westfalen,"Ott, Hermann",Grüne
+Nordrhein-Westfalen,"Herlitzius, Bettina",Grüne
+Nordrhein-Westfalen,"Ostendorff, Friedrich",Grüne
+Sachsen,"Kolbe, Manfred",CDU
+Sachsen,"Kudla, Bettina",CDU
+Sachsen,"Feist, Thomas",CDU
+Sachsen,"Landgraf, Barbara",CDU
+Sachsen,"de Maizière, Thomas",CDU
+Sachsen,"Michalk, Maria",CDU
+Sachsen,"Kretschmer, Michael",CDU
+Sachsen,"Brähmig, Klaus",CDU
+Sachsen,"Lämmel, Andreas",CDU
+Sachsen,"Vaatz, Arnold",CDU
+Sachsen,"Bellmann, Veronika",CDU
+Sachsen,"Heinrich, Frank",CDU
+Sachsen,"Wanderwitz, Marco",CDU
+Sachsen,"Baumann, Helmut",CDU
+Sachsen,"Luther, Michael",CDU
+Sachsen,"Hochbaum, Robert",CDU
+Sachsen,"Tiefensee, Wolfgang",SPD
+Sachsen,"Volkmer, Eva",SPD
+Sachsen,"Schwanitz, Rolf",SPD
+Sachsen,"Kolbe, Daniela",SPD
+Sachsen,"Gunkel, Wolfgang",SPD
+Sachsen,"Mücke, Jan",FDP
+Sachsen,"Günther, Joachim",FDP
+Sachsen,"Haustein, Heinz-Peter",FDP
+Sachsen,"Deutschmann, Reiner",FDP
+Sachsen,"Kipping, Katja",Linke
+Sachsen,"Troost, Axel",Linke
+Sachsen,"Höll, Barbara",Linke
+Sachsen,"Seifert, Ilja",Linke
+Sachsen,"Zimmermann, Sabine",Linke
+Sachsen,"Leutert, Michael",Linke
+Sachsen,"Lay, Caren",Linke
+Sachsen,"Wunderlich, Jörn",Linke
+Sachsen,"Lazar, Monika",Grüne
+Sachsen,"Kühn, Stephan",Grüne
+Hessen,"Pfeiffer, Sibylle",CDU
+Hessen,"Braun, Helge",CDU
+Hessen,"Brand, Michael",CDU
+Hessen,"Haibach, Holger-Heinrich",CDU
+Hessen,"Puttrich, Lucia",CDU
+Hessen,"Willsch, Klaus-Peter",CDU
+Hessen,"Schröder, Kristina",CDU
+Hessen,"Tauber, Peter",CDU
+Hessen,"Riesenhuber, Heinz",CDU
+Hessen,"Zimmer, Matthias",CDU
+Hessen,"Steinbach, Erika",CDU
+Hessen,"Jung, Franz Josef",CDU
+Hessen,"Wichtel, Peter",CDU
+Hessen,"Lips, Patricia",CDU
+Hessen,"Meister, Michael",CDU
+Hessen,"Siebert, Bernd",CDU
+Hessen,"Heiderich, Helmut",CDU
+Hessen,"Meßmer, Ullrich",SPD
+Hessen,"Gottschalck, Ulrike",SPD
+Hessen,"Roth, Michael",SPD
+Hessen,"Franke, Edgar",SPD
+Hessen,"Bartol, Sören",SPD
+Hessen,"Zypries, Brigitte",SPD
+Hessen,"Wieczorek-Zeul, Heidemarie",SPD
+Hessen,"Veit, Rüdiger",SPD
+Hessen,"Lambrecht, Christine",SPD
+Hessen,"Zapf, Uta",SPD
+Hessen,"Reichenbach, Gerold",SPD
+Hessen,"Raabe, Sascha",SPD
+Hessen,"Gerhardt, Wolfgang",FDP
+Hessen,"zu Solms-Hohensolms-Lich, Hermann Otto",FDP
+Hessen,"Kolb, Heinrich",FDP
+Hessen,"Otto, Hans-Joachim",FDP
+Hessen,"Dyckmans, Mechthild",FDP
+Hessen,"Ruppert, Stefan",FDP
+Hessen,"Sänger, Björn",FDP
+Hessen,"Schnurr, Christoph",FDP
+Hessen,"Leidig, Sabine",Linke
+Hessen,"Gehrcke-Reymann, Wolfgang",Linke
+Hessen,"Buchholz, Christine",Linke
+Hessen,"Dreibus, Werner",Linke
+Hessen,"Hinz, Priska",Grüne
+Hessen,"Nouripour, Omid",Grüne
+Hessen,"Maisch, Nicole",Grüne
+Hessen,"Koenigs, Thomas",Grüne
+Hessen,"Wagner, Daniela",Grüne
+Hessen,"Strengmann-Kuhn, Wolfgang",Grüne
+Thüringen,"Grund, Manfred",CDU
+Thüringen,"Hirte, Christian",CDU
+Thüringen,"Selle, Johannes",CDU
+Thüringen,"Schipanski, Tankred",CDU
+Thüringen,"Tillmann, Antje",CDU
+Thüringen,"Vogel, Volkmar",CDU
+Thüringen,"Stauche, Carola",CDU
+Thüringen,"Schneider, Carsten",SPD
+Thüringen,"Gleicke, Iris",SPD
+Thüringen,"Lemme, Steffen-Claudio",SPD
+Thüringen,"Kurth, Patrick",FDP
+Thüringen,"Röhlinger, Peter",FDP
+Thüringen,"Lenkert, Ralph",Linke
+Thüringen,"Petermann, Jens",Linke
+Thüringen,"Jochimsen, Lukrezia",Linke
+Thüringen,"Naumann, Kersten",Linke
+Thüringen,"Tempel, Frank",Linke
+Thüringen,"Göring-Eckardt, Katrin",Grüne
+Rheinland-Pfalz,"Rüddel, Erwin",CDU
+Rheinland-Pfalz,"Heil, Mechthild",CDU
+Rheinland-Pfalz,"Fuchs, Michael",CDU
+Rheinland-Pfalz,"Bleser, Peter",CDU
+Rheinland-Pfalz,"Klöckner, Julia",CDU
+Rheinland-Pfalz,"Schnieder, Patrick",CDU
+Rheinland-Pfalz,"Kaster, Bernhard",CDU
+Rheinland-Pfalz,"Hörster, Joachim",CDU
+Rheinland-Pfalz,"Granold, Ute",CDU
+Rheinland-Pfalz,"Böhmer, Maria",CDU
+Rheinland-Pfalz,"Schindler, Norbert",CDU
+Rheinland-Pfalz,"Schäfer, Anita",CDU
+Rheinland-Pfalz,"Gebhart, Thomas",CDU
+Rheinland-Pfalz,"Hagemann, Klaus",SPD
+Rheinland-Pfalz,"Herzog, Gustav",SPD
+Rheinland-Pfalz,"Nahles, Andreas",SPD
+Rheinland-Pfalz,"Hartmann, Michael",SPD
+Rheinland-Pfalz,"Barnett, Doris",SPD
+Rheinland-Pfalz,"Körper, Fritz",SPD
+Rheinland-Pfalz,"Bätzing, Sabine",SPD
+Rheinland-Pfalz,"Nink, Manfred",SPD
+Rheinland-Pfalz,"Brüderle, Rainer",FDP
+Rheinland-Pfalz,"Wissing, Volker",FDP
+Rheinland-Pfalz,"Hoff, Elke",FDP
+Rheinland-Pfalz,"Geisen, Edmund",FDP
+Rheinland-Pfalz,"Höferlin, Manuel",FDP
+Rheinland-Pfalz,"Ulrich, Alexander",Linke
+Rheinland-Pfalz,"Senger-Schäfer, Kathrin",Linke
+Rheinland-Pfalz,"Werner, Katrin",Linke
+Rheinland-Pfalz,"Höfken-Deipenbrock, Ulrike",Grüne
+Rheinland-Pfalz,"Winkler, Josef Philip",Grüne
+Rheinland-Pfalz,"Rößner, Tabea",Grüne
+Rheinland-Pfalz,"Lindner, Tobias",Grüne
+Bayern,"Pronold, Florian",SPD
+Bayern,"Kastner, Susanne",SPD
+Bayern,"Gloser, Günter",SPD
+Bayern,"Ernstberger, Petra",SPD
+Bayern,"Barthel, Klaus",SPD
+Bayern,"Schieder, Marianne",SPD
+Bayern,"Paula, Heinz",SPD
+Bayern,"Graf, Angelika",SPD
+Bayern,"Schurer, Ewald",SPD
+Bayern,"Rupprecht, Marlene",SPD
+Bayern,"Hofmann, Frank",SPD
+Bayern,"Kramme, Anette",SPD
+Bayern,"Burkert, Martin",SPD
+Bayern,"Fograscher, Gabriele",SPD
+Bayern,"Schieder, Werner",SPD
+Bayern,"Kofler, Bärbel",SPD
+Bayern,"Leutheusser-Schnarrenberger, Sabine",FDP
+Bayern,"Stadler, Max",FDP
+Bayern,"Stinner, Rainer",FDP
+Bayern,"Meierhofer, Horst",FDP
+Bayern,"Gruß, Miriam",FDP
+Bayern,"Schuster, Marina",FDP
+Bayern,"Volk, Daniel",FDP
+Bayern,"Spatz, Joachim",FDP
+Bayern,"Körber, Sebastian",FDP
+Bayern,"Schulz, Jimmy",FDP
+Bayern,"Thomae, Stephan",FDP
+Bayern,"Lotter, Erwin",FDP
+Bayern,"Breil, Klaus",FDP
+Bayern,"Erdel, Rainer",FDP
+Bayern,"Drexler, Gerhard",FDP
+Bayern,"Ernst, Klaus",Linke
+Bayern,"Bulling-Schröter, Eva",Linke
+Bayern,"Möller, Kornelia",Linke
+Bayern,"Weinberg, Harald",Linke
+Bayern,"Gohlke, Nicole",Linke
+Bayern,"Süßmair, Alexander",Linke
+Bayern,"Roth, Claudia",Grüne
+Bayern,"Fell, Hans-Josef",Grüne
+Bayern,"Scheel, Christine",Grüne
+Bayern,"Hofreiter, Anton",Grüne
+Bayern,"Deligöz, Ekin",Grüne
+Bayern,"Montag, Jerzy",Grüne
+Bayern,"Scharfenberg, Elisabeth",Grüne
+Bayern,"Gambke, Thomas",Grüne
+Bayern,"Krumwiede, Agnes",Grüne
+Bayern,"Kekeritz, Uwe",Grüne
+Bayern,"Walter-Rosenheimer, Beate",Grüne
+Bayern,"Mayer, Stephan",CSU
+Bayern,"Lehmer, Max",CSU
+Bayern,"Obermeier, Franz",CSU
+Bayern,"Hasselfeldt, Gerda",CSU
+Bayern,"Brandl, Reinhard",CSU
+Bayern,"Singhammer, Johannes",CSU
+Bayern,"Frankenhauser, Herbert",CSU
+Bayern,"Gauweiler, Peter",CSU
+Bayern,"Uhl, Hans-Peter",CSU
+Bayern,"Hahn, Florian",CSU
+Bayern,"Raab, Daniela",CSU
+Bayern,"Aigner, Ilse",CSU
+Bayern,"Ramsauer, Peter",CSU
+Bayern,"Dobrindt, Alexander",CSU
+Bayern,"Kalb, Bartholomäus",CSU
+Bayern,"Götzer, Wolfgang",CSU
+Bayern,"Scheuer, Andreas",CSU
+Bayern,"Straubinger, Max",CSU
+Bayern,"Hinsken, Ernst",CSU
+Bayern,"Karl, Alois",CSU
+Bayern,"Aumer, Peter",CSU
+Bayern,"Holmeier, Karl",CSU
+Bayern,"Rupprecht, Albert",CSU
+Bayern,"Silberhorn, Thomas",CSU
+Bayern,"Koschyk, Hartmut",CSU
+Bayern,"Michelbach, Hans",CSU
+Bayern,"Friedrich, Hans-Peter",CSU
+Bayern,"zu Guttenberg, Karl-Theodor",CSU
+Bayern,"Göppel, Josef",CSU
+Bayern,"Müller, Stefan",CSU
+Bayern,"Schmidt, Christian",CSU
+Bayern,"Wöhrl, Dagmar",CSU
+Bayern,"Frieser, Michael",CSU
+Bayern,"Mortler, Marlene",CSU
+Bayern,"Geis, Norbert",CSU
+Bayern,"Bär, Dorothee",CSU
+Bayern,"Zöller, Wolfgang",CSU
+Bayern,"Glos, Michael",CSU
+Bayern,"Lehrieder, Paul",CSU
+Bayern,"Ruck, Christian",CSU
+Bayern,"Oswald, Eduard",CSU
+Bayern,"Lange, Ulrich",CSU
+Bayern,"Nüßlein, Georg",CSU
+Bayern,"Müller, Gerd",CSU
+Bayern,"Stracke, Stephan",CSU
+Baden-Württemberg,"Kaufmann, Stefan",CDU
+Baden-Württemberg,"Maag, Karin",CDU
+Baden-Württemberg,"Binninger, Clemens",CDU
+Baden-Württemberg,"Grübel, Markus",CDU
+Baden-Württemberg,"Hennrich, Michael",CDU
+Baden-Württemberg,"Riegert, Klaus",CDU
+Baden-Württemberg,"Pfeiffer, Joachim",CDU
+Baden-Württemberg,"Bilger, Steffen",CDU
+Baden-Württemberg,"Gienger, Eberhard",CDU
+Baden-Württemberg,"Strobl, Thomas",CDU
+Baden-Württemberg,"von Stetten, Christian",CDU
+Baden-Württemberg,"Barthle, Norbert",CDU
+Baden-Württemberg,"Kiesewetter, Roderich",CDU
+Baden-Württemberg,"Wellenreuther, Ingo",CDU
+Baden-Württemberg,"Fischer, Axel",CDU
+Baden-Württemberg,"Götz, Peter",CDU
+Baden-Württemberg,"Lamers, Karl A.",CDU
+Baden-Württemberg,"Jüttner, Egon",CDU
+Baden-Württemberg,"Gerig, Alois",CDU
+Baden-Württemberg,"Harbarth, Stephan",CDU
+Baden-Württemberg,"Gutting, Olav",CDU
+Baden-Württemberg,"Krichbaum, Gunther",CDU
+Baden-Württemberg,"Fuchtel, Hans-Joachim",CDU
+Baden-Württemberg,"Schuster, Armin",CDU
+Baden-Württemberg,"Weiß, Peter",CDU
+Baden-Württemberg,"Schäuble, Wolfgang",CDU
+Baden-Württemberg,"Kauder, Volker",CDU
+Baden-Württemberg,"Kauder, Siegfried",CDU
+Baden-Württemberg,"Jung, Andreas",CDU
+Baden-Württemberg,"Dörflinger, Thomas",CDU
+Baden-Württemberg,"Beck, Ernst-Reinhard",CDU
+Baden-Württemberg,"Widmann-Mauz, Annette",CDU
+Baden-Württemberg,"Schavan, Annette",CDU
+Baden-Württemberg,"Rief, Josef",CDU
+Baden-Württemberg,"Riebsamen, Lothar",CDU
+Baden-Württemberg,"Schockenhoff, Andreas",CDU
+Baden-Württemberg,"Bareiß, Thomas",CDU
+Baden-Württemberg,"Erler, Gernot",SPD
+Baden-Württemberg,"Vogt, Ute",SPD
+Baden-Württemberg,"Kressl, Nicolette",SPD
+Baden-Württemberg,"Lange, Christian",SPD
+Baden-Württemberg,"Mattheis, Hildegard",SPD
+Baden-Württemberg,"Roth, Karin",SPD
+Baden-Württemberg,"Kumpf, Ute",SPD
+Baden-Württemberg,"Scheer, Hermann",SPD
+Baden-Württemberg,"Friedrich, Peter",SPD
+Baden-Württemberg,"Arnold, Rainer",SPD
+Baden-Württemberg,"Drobinski-Weiß, Elvira",SPD
+Baden-Württemberg,"Gerster, Martin",SPD
+Baden-Württemberg,"Mast, Katja",SPD
+Baden-Württemberg,"Binding, Lothar",SPD
+Baden-Württemberg,"Juratovi_, Josip",SPD
+Baden-Württemberg,"Schwarzelühr-Sutter, Rita",SPD
+Baden-Württemberg,"Rebmann, Stefan",SPD
+Baden-Württemberg,"Sawade, Annette",SPD
+Baden-Württemberg,"Homburger, Birgit",FDP
+Baden-Württemberg,"Niebel, Dirk",FDP
+Baden-Württemberg,"Burgbacher, Ernst",FDP
+Baden-Württemberg,"Leibrecht, Harald",FDP
+Baden-Württemberg,"Wolff, Harald",FDP
+Baden-Württemberg,"Laurischk, Sibylle",FDP
+Baden-Württemberg,"Meinhardt, Patrick",FDP
+Baden-Württemberg,"Toncar, Florian",FDP
+Baden-Württemberg,"Link, Michael",FDP
+Baden-Württemberg,"Schweickert, Erik",FDP
+Baden-Württemberg,"Reinemund, Birgit",FDP
+Baden-Württemberg,"Skudelny, Judith",FDP
+Baden-Württemberg,"Kober, Pascal",FDP
+Baden-Württemberg,"Simmling, Werner",FDP
+Baden-Württemberg,"Golombeck, Heinz",FDP
+Baden-Württemberg,"Maurer, Ulrich",Linke
+Baden-Württemberg,"Hänsel, Heike",Linke
+Baden-Württemberg,"Binder, Karin",Linke
+Baden-Württemberg,"Schlecht, Michael",Linke
+Baden-Württemberg,"Groth, Annette",Linke
+Baden-Württemberg,"Pitterle, Richard",Linke
+Baden-Württemberg,"Andreae, Kerstin",Grüne
+Baden-Württemberg,"Kuhn, Fritz",Grüne
+Baden-Württemberg,"Kotting-Uhl, Sylvia",Grüne
+Baden-Württemberg,"Schick, Gerhard",Grüne
+Baden-Württemberg,"Müller-Gemmeke, Beate",Grüne
+Baden-Württemberg,"Hermann, Winfried",Grüne
+Baden-Württemberg,"Bender, Birgitt",Grüne
+Baden-Württemberg,"Bonde, Alexander",Grüne
+Baden-Württemberg,"Hönlinger, Ingrid",Grüne
+Baden-Württemberg,"Kilic, Memet",Grüne
+Baden-Württemberg,"Malczak, Agnes",Grüne
+Baden-Württemberg,"Ebner, Harald",Grüne
+Baden-Württemberg,"Seiler, Till",Grüne
+Baden-Württemberg,"Schneider, Ulrich",Grüne
+Baden-Württemberg,"Kieckbusch, Susanne",Grüne
+Saarland,"Hübinger, Anette",CDU
+Saarland,"Altmaier, Peter",CDU
+Saarland,"Müller, Nadine",CDU
+Saarland,"Funk, Alexander",CDU
+Saarland,"Ferner, Elke",SPD
+Saarland,"Schreiner, Ottmar",SPD
+Saarland,"Klug, Astrid",SPD
+Saarland,"Luksic, Oliver",FDP
+Saarland,"Lafontaine, Oskar",Linke
+Saarland,"Lutze, Thomas",Linke
+Saarland,"Ploetz, Yvonne",Linke
+Saarland,"Tressel, Markus",Grüne
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
