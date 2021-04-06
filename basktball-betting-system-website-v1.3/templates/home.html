@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="../static/loading.css">
+<link rel="stylesheet" href="../static/home.css">
+</head>
+<body>
+
+<div class="homeBody">
+<h1 class="heading">BASKETBALL BETTING SYSTEM</h1>
+<div class="split left">
+    <h2>Home Team</h2>
+    <div class="content">
+        <div class="images">
+          <img class="home" src="../static/LLA.jpg" id="Los Angeles Lakers">
+          <img  class="home" src="../static/NOP.jpg" id="New Orleans Pelicans">
+          <img  class="home" src="../static/ATH.png" id="Atlanta Hawks">
+          <img  class="home" src="../static/BKL.jpg" id="Brooklyn Nets">
+          <img  class="home" src="../static/BTC.jpg" id="Boston Celtics">
+          <img  class="home" src="../static/CHB.png" id="Chicago Bulls">
+          <img  class="home" src="../static/CHR.png" id="Charlotte Hornets">
+          <img  class="home" src="../static/CLC.png" id="Cleveland Cavaliers">
+          <img  class="home" src="../static/DMR.png" id="Dallas Mavericks">
+          <img class="home"  src="../static/DTP.png" id="Detroit Pistons">
+          <img  class="home" src="../static/DVN.png" id="Denver Nuggets">
+          <img  class="home" src="../static/GSW.jpg" id="Golden State Warriors">
+          <img  class="home" src="../static/HR.jpg" id="Houston Rockets">
+          <img  class="home" src="../static/INP.png" id="Indiana Pacers">
+          <img  class="home" src="../static/LAC.png" id="Los Angeles Clippers">
+          <img  class="home" src="../static/MH.png" id="Miami Heat">
+          <img  class="home" src="../static/MPG.png" id="Memphis Grizzlies">
+          <img  class="home" src="../static/MTW.png" id="Minnesota Timberwolves">
+          <img  class="home" src="../static/MWB.png" id="Milwaukee Bucks">
+          <img  class="home" src="../static/NYK.jpg" id="New York Knicks">
+          <img  class="home" src="../static/OKC.png" id="Oklahoma City Thunder">
+          <img  class="home" src="../static/OLM.png" id="Orlando Magic">
+          <img  class="home" src="../static/PD7.jpg" id="Philadelphia 76ers">
+          <img  class="home" src="../static/PHS.jpg" id="Phoenix Suns">
+          <img  class="home" src="../static/PLB.png" id="Portland Trail Blazers">
+          <img  class="home" src="../static/SAP.jpg" id="San Antonio Spurs">
+          <img  class="home" src="../static/SMK.jpg" id="Sacramento Kings">
+          <img  class="home" src="../static/TR.png" id="Toronto Raptors">
+          <img  class="home" src="../static/UTJ.jpg" id="Utah Jazz">
+          <img  class="home" src="../static/WGW.png" id="Washington Wizards">
+        </div>
+
+        <div class="sliders_home left_home" onclick="side_slide_home(-1)">
+          <span  style="color: whitesmoke;">&#8666</span>
+        </div>
+        <div class="sliders_home right_home" onclick="side_slide_home(1)">
+          <span style="color: whitesmoke;">&#8667</span>
+        </div>
+  </div>
+  
+</div>
+
+
+<div class="split right">
+    <h2>Away Team</h2>
+    <div class="content">
+        <div class="images">
+          <img   class="away" src="../static/LLA.jpg" id="Los Angeles Lakers">
+          <img  class="away"  src="../static/NOP.jpg" id="New Orleans Pelicans">
+          <img  class="away"  src="../static/ATH.png" id="Atlanta Hawks">
+          <img  class="away"  src="../static/BKL.jpg" id="Brooklyn Nets">
+          <img  class="away"  src="../static/BTC.jpg" id="Boston Celtics">
+          <img  class="away"  src="../static/CHB.png" id="Chicago Bulls">
+          <img   class="away" src="../static/CHR.png" id="Charlotte Hornets">
+          <img   class="away" src="../static/CLC.png" id="Cleveland Cavaliers">
+          <img   class="away" src="../static/DMR.png" id="Dallas Mavericks">
+          <img   class="away" src="../static/DTP.png" id="Detroit Pistons">
+          <img   class="away" src="../static/DVN.png" id="Denver Nuggets">
+          <img   class="away" src="../static/GSW.jpg" id="Golden State Warriors">
+          <img   class="away" src="../static/HR.jpg" id="Houston Rockets">
+          <img   class="away" src="../static/INP.png" id="Indiana Pacers">
+          <img   class="away" src="../static/LAC.png" id="Los Angeles Clippers">
+          <img   class="away" src="../static/MH.png" id="Miami Heat">
+          <img  class="away"  src="../static/MPG.png" id="Memphis Grizzlies">
+          <img   class="away" src="../static/MTW.png" id="Minnesota Timberwolves">
+          <img   class="away" src="../static/MWB.png" id="Milwaukee Bucks">
+          <img   class="away" src="../static/NYK.jpg" id="New York Knicks">
+          <img   class="away" src="../static/OKC.png" id="Oklahoma City Thunder">
+          <img   class="away" src="../static/OLM.png" id="Orlando Magic">
+          <img   class="away" src="../static/PD7.jpg" id="Philadelphia 76ers">
+          <img   class="away" src="../static/PHS.jpg" id="Phoenix Suns">
+          <img   class="away" src="../static/PLB.png" id="Portland Trail Blazers">
+          <img   class="away" src="../static/SAP.jpg" id="San Antonio Spurs">
+          <img   class="away" src="../static/SMK.jpg" id="Sacramento Kings">
+          <img   class="away" src="../static/TR.png" id="Toronto Raptors">
+          <img  class="away"  src="../static/UTJ.jpg" id="Utah Jazz">
+          <img   class="away" src="../static/WGW.png" id="Washington Wizards">
+        </div>
+  
+  <div class="sliders_away left_away" onclick="side_slide_away(-1)">
+          <!-- <span class="fas fa-angle-left" style="color: yellow;">&#8592</span> -->
+          <span  style="color: whitesmoke;">&#8666</span>
+        </div>
+  <div class="sliders_away right_away" onclick="side_slide_away(1)">
+          <!-- <span class="fas fa-angle-right" style="color: yellow;">&#8594;</span> -->
+          <span style="color: whitesmoke;">&#8667</span>
+        </div>
+  </div>
+  
+</div>
+
+
+
+  
+     </div>
+
+    <div class="split3">
+  <a>
+            <button id="submitBtn">Submit</button>
+      </a>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    var indexValue = 1;
+    var homeIndex
+    showImg_home(indexValue);
+    // function btm_slide(e){showImg(indexValue = e);}
+    function side_slide_home(e){showImg_home(indexValue += e);}
+    function showImg_home(e){
+      var i;
+    //   const img = document.querySelectorAll('img');
+      const img = document.getElementsByClassName('home');
+      const slider = document.querySelectorAll('.btm-slides span');
+      if(e > img.length){indexValue = 1}
+      if(e < 1){indexValue = img.length}
+      for(i = 0; i < img.length; i++){
+        img[i].style.display = "none";
+      }
+      for(i = 0; i < slider.length; i++){
+        slider[i].style.background = "rgba(255,255,255,0.1)";
+      }
+      img[indexValue-1].style.display = "block";
+    //   console.log(img[indexValue-1].id);
+      // slider[indexValue-1].style.background = "white";
+      homeIndex = indexValue
+    }
+
+    
+</script>
+
+
+
+
+<script>
+    var indexValue = 1;
+    var awayIndex
+    showImg_away(indexValue);
+    // function btm_slide(e){showImg(indexValue = e);}
+    function side_slide_away(e){showImg_away(indexValue += e);}
+    function showImg_away(e){
+      var i;
+    //   const img = document.querySelectorAll('img');
+      const img = document.getElementsByClassName('away');
+      const slider = document.querySelectorAll('.btm-slides span');
+      if(e > img.length){indexValue = 1}
+      if(e < 1){indexValue = img.length}
+      for(i = 0; i < img.length; i++){
+        img[i].style.display = "none";
+      }
+      for(i = 0; i < slider.length; i++){
+        slider[i].style.background = "rgba(255,255,255,0.1)";
+      }
+      img[indexValue-1].style.display = "block";
+
+    //   console.log(img[indexValue-1].id);
+      awayIndex = indexValue
+      // slider[indexValue-1].style.background = "white";
+    }
+</script>
+<script>
+  var btn = document.getElementById("submitBtn")
+    btn.addEventListener("click",()=>{
+        let home_team = document.getElementsByClassName("home")
+        let away_team = document.getElementsByClassName("away")
+        home_team = home_team[homeIndex-1].id
+        away_team = away_team[awayIndex-1].id
+        if(away_team==home_team){
+          alert("Same Home & Away Team")
+        }
+        else{
+          document.body.innerHTML = "<div class='loadingContainer'><img src='https://i.pinimg.com/originals/66/cf/0f/66cf0fa9379d11c0d49f32ae63247d94.gif' alt='Snow' style='opacity: 0.5;width: 100%;height: 100vh;'><div class='loading'><div class='loading__letter'>L</div><div class='loading__letter'>o</div><div class='loading__letter'>a</div><div class='loading__letter'>d</div><div class='loading__letter'>i</div><div class='loading__letter'>n</div><div class='loading__letter'>g</div><div class='loading__letter'>.</div><div class='loading__letter'>.</div><div class='loading__letter'>.</div></div></div>"
+        axios.post('/results',{
+            "Home_Team":home_team,
+            "Away_Team":away_team
+
+        }).then((res)=>{
+            console.log(res.data)
+            if(Object.keys(res.data).length == 0){
+              let Form = document.createElement('form')
+              Form.method = 'POST'
+              Form.action = '/error'
+              Form.style.display = 'none'
+              document.body.appendChild(Form)
+              Form.submit()
+            }
+            else{
+              let Form = document.createElement('form')
+              let results = {'home_score':res.data['home_score'],'away_score':res.data['away_score'],'home_chance':res.data['home_chance'],'away_chance':res.data['away_chance']}
+              Form.method = 'POST'
+              Form.action = '/showResults'
+              Form.style.display = 'none'
+              let variables = document.createElement("input")
+              variables.type = "hidden"
+              variables.value = JSON.stringify(results)
+              variables.name = "params"
+              Form.appendChild(variables)
+              document.body.appendChild(Form)
+              Form.submit()
+            }
+            
+        }).catch((e)=>{
+            console.log(e)
+        })
+      }
+
+
+    })
+</script>
+
+
+
+  
+</body>
+</html> 

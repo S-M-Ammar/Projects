@@ -1,0 +1,29 @@
+#loading {
+    background: url('http://cdn.lowgif.com/full/1289d48ac96f2bc3-.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+}
+/* 
+#loading_1 {
+    background: url('https://miro.medium.com/max/1600/1*e_Loq49BI4WmN7o9ItTADg.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    height: 100%;
+    width: 100%;
+    z-index: 9999999; 
+}
+
+#loading_2 {
+    background: url('https://i.pinimg.com/originals/04/8a/a1/048aa16c6ee3d0cd85796757844ed308.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    height: 100%;
+    width: 100%;
+    z-index: 9999999; 
+} */

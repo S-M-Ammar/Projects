@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Home</title>
+   
+</head>
+<body>
+
+    <label>Team-1</label> <input id="team_1" type="text" placeholder="Home Team....">
+    <label>Team-2</label> <input id="team_2" type="text" placeholder="Away Team....">
+    <button id='submitTeams'>Submit</button>
+    
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="/vendor/table//jquery/jquery-3.2.1.min.js"></script>
+<script>
+    btn = document.getElementById("submitTeams")
+    btn.addEventListener("click",()=>{
+        let team_1 = document.getElementById("team_1").value
+        let team_2 = document.getElementById("team_2").value
+        
+        console.log(team_1)
+        console.log(team_2)
+
+        document.body.innerHTML = '<div id="loading"></div>'
+
+        axios.post('/results',{
+            "Home_Team":team_1,
+            "Away_Team":team_2
+        }).then((res)=>{
+            console.log(res.data)
+            document.body.innerHTML = res.data
+        }).catch((e)=>{
+            console.log(e)
+        })
+
+        
+    })
+</script>
+
+</html>

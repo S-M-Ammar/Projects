@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+  margin: 0;
+  padding: 0;
+  }
+
+  body{
+    background-image: url("https://images.pexels.com/photos/1752757/pexels-photo-1752757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    /* overflow:  */
+  }
+
+  label{
+    border-bottom: 2px solid white;
+    color: yellow;
+     }
+
+     span{
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+     }
+     h1{
+      width: 100%;
+      text-align: center;
+      color: white;
+      padding-top: 50px;
+     }
+
+     .container1{
+      width: 50%;
+      display: inline-block;
+      float: left;
+      text-align: center;
+      padding: 100px 0px 0px 0px;
+     }
+
+     .container2{
+      text-align: center;
+      padding: 100px 0px 0px 0px;
+     }
+
+     .main-Box{
+      width: 80%;
+      height: 400px;
+      background-color: black;
+      opacity: 0.9;
+      margin: 80px 150px 0px 150px;
+      border-radius: 10px;
+      border: 1px solid white;
+     }
+
+
+
+
+     #btn {
+  background: #222;
+  height: 50px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 40px;
+  font-family: 'Cookie', cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+  margin-top: 20px;
+  letter-spacing: 3px;
+}
+
+#btn #circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#btn:hover {
+  background: transparent;
+}
+
+#btn:hover #circle {
+  height: 50px;
+  width: 250px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
+
+.container3{
+  width: 100%;
+  text-align: -webkit-center;
+}
+
+a{
+  text-decoration: none;
+}
+
+    </style>
+ 
+  </head>
+  <body>
+    <h1>BASKETBALL BETTING SYSTEM</h1>
+    <div class="main-Box">
+      <div class="container1">
+        <span>Home Team Winning Chances:</span>
+        <span><label>{{home_chance}} %</label></span>
+      </div>
+
+      <div class="container2">
+        <span>Away Team Winning Chances:</span>
+        <span><label>{{away_chance}} %</label></span>
+      </div>
+
+      <div class="container1">
+        <span>Home Team Score Prediction:</span>
+        <span><label>{{home_score}}</label></span>
+      </div>
+
+      <div class="container2">
+        <span>Away Team Score Prediction:</span>
+        <span><label>{{away_score}}</label></span>
+      </div>
+
+    </div>
+
+    <div class="container3">
+
+      <a href="/"><div id="btn"><span class="noselect">Back To Home Screen</span><div id="circle"></div></div></a>
+    </div>
+  </body>
+</html>
