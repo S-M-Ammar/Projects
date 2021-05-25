@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f286cd5-8e99-45d8-8faf-6fa8229393a4" name="Default" comment="" />
+    <list default="true" id="68e9a2a1-bc76-41a6-a595-1639d5ff4019" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +10,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/comsat_fyp$m.coverage" NAME="m Coverage Results" MODIFIED="1607428864560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/comsat_fyp$comsat_fyp.coverage" NAME="comsat fyp Coverage Results" MODIFIED="1608117592315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/comsat_fyp$try.coverage" NAME="try Coverage Results" MODIFIED="1616244908514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/comsat_fyp$comsat_fyp.coverage" NAME="comsat fyp Coverage Results" MODIFIED="1616226643062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/iot_sensors_readings_forecasting$comsat_fyp.coverage" NAME="comsat fyp Coverage Results" MODIFIED="1621855569903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
     <leaf />
@@ -27,13 +28,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/m.py" />
-        <option value="$PROJECT_DIR$/main.ipynb" />
-        <option value="$PROJECT_DIR$/suiGasModel.ipynb" />
-        <option value="$PROJECT_DIR$/DustModel.ipynb" />
-        <option value="$PROJECT_DIR$/temperatureModel.ipynb" />
-        <option value="$PROJECT_DIR$/carbonMonoxide.ipynb" />
-        <option value="$PROJECT_DIR$/smokeModel.ipynb" />
+        <option value="$PROJECT_DIR$/Islamabad_forecasting.py" />
+        <option value="$PROJECT_DIR$/Lahore_Forecasting.ipynb" />
+        <option value="$PROJECT_DIR$/Peshawar_Forecasting.ipynb" />
+        <option value="$PROJECT_DIR$/Islamabad_Forecasting.ipynb" />
+        <option value="$PROJECT_DIR$/lstm_islamabad.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_ARIMA/dust.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_ARIMA/suigas.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_ARIMA/smoke.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_ARIMA/temperature.ipynb" />
+        <option value="$PROJECT_DIR$/try.py" />
+        <option value="$PROJECT_DIR$/Abbottabad_FB-Prophet/dust.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_LSTM/carbonmonoxide.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_LSTM/.ipynb_checkpoints/carbonmonoxide-1.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_LSTM/carbonmonoxide-1.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_LSTM/smoke.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_LSTM/temperature.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_LSTM/suigas.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_LSTM/dust.ipynb" />
+        <option value="$PROJECT_DIR$/Abbottabad_ARIMA/carbonmonoxide.ipynb" />
       </list>
     </option>
   </component>
@@ -47,8 +60,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="495" />
-    <option name="y" value="143" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="697" />
     <option name="height" value="391" />
   </component>
@@ -62,8 +75,18 @@
         <subPane>
           <expand>
             <path>
-              <item name="comsat fyp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comsat fyp" type="462c0819:PsiDirectoryNode" />
+              <item name="iot sensors readings forecasting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot sensors readings forecasting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot sensors readings forecasting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot sensors readings forecasting" type="462c0819:PsiDirectoryNode" />
+              <item name="Abbottabad_ARIMA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iot sensors readings forecasting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iot sensors readings forecasting" type="462c0819:PsiDirectoryNode" />
+              <item name="Abbottabad_LSTM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -73,10 +96,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../france car sales stock" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.m">
+  <component name="RunManager" selected="Python.try">
     <configuration name="comsat fyp" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="comsat fyp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,7 +120,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\S.M.Ammar\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -108,7 +130,7 @@
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
     </configuration>
-    <configuration name="m" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="try" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="comsat fyp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +143,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/m.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,11 +151,11 @@
     </configuration>
     <list>
       <item itemvalue="Jupyter Notebook.comsat fyp" />
-      <item itemvalue="Python.m" />
+      <item itemvalue="Python.try" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.m" />
+        <item itemvalue="Python.try" />
       </list>
     </recent_temporary>
   </component>
@@ -142,25 +164,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6f286cd5-8e99-45d8-8faf-6fa8229393a4" name="Default" comment="" />
-      <created>1607175768305</created>
+      <changelist id="68e9a2a1-bc76-41a6-a595-1639d5ff4019" name="Default" comment="" />
+      <created>1615715603485</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607175768305</updated>
+      <updated>1615715603485</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5014641" side_tool="true" weight="0.59192824" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.5560538" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.59192824" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49926794" weight="0.54559046" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.193265" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.20667727" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36406994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -182,66 +204,97 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
-    </ignored-roots>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/smokeModel.ipynb">
+    <entry file="file://$PROJECT_DIR$/OutliersValues.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Islamabad_forecasting.py" />
+    <entry file="file://$PROJECT_DIR$/Lahore_Forecasting.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Peshawar_Forecasting.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Islamabad_Forecasting.ipynb" />
+    <entry file="file://$PROJECT_DIR$/lstm_islamabad.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Abbottabad_ARIMA/suigas.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smokeModel.ipynb">
+    <entry file="file://$PROJECT_DIR$/Abbottabad_ARIMA/smoke.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m.py" />
-    <entry file="file://$PROJECT_DIR$/m.py" />
-    <entry file="file://$PROJECT_DIR$/m.py" />
-    <entry file="file://$PROJECT_DIR$/m.py" />
-    <entry file="file://$PROJECT_DIR$/m.py" />
-    <entry file="file://$PROJECT_DIR$/m.py" />
-    <entry file="file://$PROJECT_DIR$/m.py" />
-    <entry file="file://$PROJECT_DIR$/main.ipynb" />
-    <entry file="file://$PROJECT_DIR$/suiGasModel.ipynb">
+    <entry file="file://$PROJECT_DIR$/Abbottabad_ARIMA/temperature.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temperatureModel.ipynb">
+    <entry file="file://$PROJECT_DIR$/try.py" />
+    <entry file="file://$PROJECT_DIR$/Abbottabad_FB-Prophet/dust.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carbonMonoxide.ipynb">
+    <entry file="file://$PROJECT_DIR$/Abbottabad_ARIMA/dust.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DustModel.ipynb">
+    <entry file="file://$PROJECT_DIR$/Abbottabad_FB-Prophet/carbonmonoxide.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abbottabad_LSTM/carbonmonoxide.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smokeModel.ipynb">
+    <entry file="file://$PROJECT_DIR$/Abbottabad_LSTM/.ipynb_checkpoints/carbonmonoxide-1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Abbottabad_LSTM/carbonmonoxide-1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Abbottabad_LSTM/smoke.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abbottabad_LSTM/temperature.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abbottabad_LSTM/suigas.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abbottabad_LSTM/dust.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abbottabad_ARIMA/carbonmonoxide.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="21" />
         </state>
       </provider>
     </entry>
